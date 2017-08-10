@@ -1,0 +1,171 @@
+body{
+	background: #f6f6f6;
+}
+.ljb_body{
+	width: 7.5rem;
+	height: 2.6rem;
+	background: #202129;
+}
+.ljb_img{
+	width: 0.45rem;
+	height: 0.45rem;
+	display: block;
+	margin-left: 0.24rem;
+
+}
+.ljb_img>img{
+	width: 100%;
+}
+.ljb_pygh{
+	width: 1.6rem;
+	height:1.6rem;
+	margin: 0 auto;
+	margin-top: -0.25rem;
+}
+.ljb_pygh>img{
+	width: 100%;
+}
+.ljb_xiaoheng{
+	width: 7.5rem;
+	height: 0.1rem;
+	background: #AB7E4C;
+}
+.ljb_dw{
+	width: 7.5rem;
+	height: 15rem;
+	position: relative;
+	background: #EDEBEB;
+}
+.ljb_banner{
+	width: 7.0rem;
+	height: 3.75rem;
+	margin: 0 auto;
+	position: absolute;
+	top: -10%;
+	left: 3%;
+	border-radius: 8px;
+}
+.ljb_banner>img{
+	width: 100%;
+}
+.ljb_yuan{
+	width: 6.02rem;
+	height: 0.94rem;
+	background: #EDEBEB;
+	position: absolute;
+	top: 12%;
+	left: 9.5%;
+	border-radius: 3rem;
+}
+.ljb_yuan>.yuan-one{
+	width: 0.75rem;
+	height: 0.75rem;
+	/* font-size: 0; */
+}
+.ljb_yuan>.yuan-one>img{
+	width: 100%;
+	margin-bottom: 0.1rem;
+	margin-left: 0.3rem;
+}
+.ljb_yuan>P{
+	display: inline-block;
+	font-size: 0.2rem;
+	position: absolute;
+	top: 19%;
+	left: 21%;
+	font-weight: 700;
+}
+.ljb_yuan>.ljb_new{
+	width: 3rem;
+	height: 0.4rem;
+	position: absolute;
+	top: 45%;
+	left: 21%;
+	font-size: 0;
+}
+.ljb_yuan>.ljb_new>h1{
+	font-size: 0.155rem;
+}
+.ljb_yuan>.ljb_ss{
+	width: 0.61rem;
+	height: 0.74rem;
+	position: absolute;
+	top: -32%;
+	left: 80%;
+	font-size: 0;
+}
+.ljb_yuan>.ljb_ss>img{
+	width: 100%;
+}
+.ljb_pywz{
+	width: 1.81rem;
+	height: 0.34rem;
+	position: absolute;
+	top: 23%;
+	left: 4%;
+	font-size: 0;
+}
+.ljb_pywz>img{
+	width: 100%;
+}
+.ljb_da{
+	width: 7.0rem;
+	margin: 0 auto;
+	height: 2.91rem;
+	position: absolute;
+	top: 36%;
+	left: 3%;
+}
+.ljb_da>img{
+	width: 100%;
+}
+.ljb_852{
+	width: 2.24rem;
+	height: 2.28rem;
+	position: absolute;
+	top: 30%;
+	left: 57%;
+}
+.ljb_852>img{
+	width: 100%;
+}
+.ljb_853>img{
+	width: 100%;
+}
+.ljb_853{
+	width: 2.24rem;
+	height: 2.28rem;
+	position: absolute;
+	top: 30%;
+	left: 11%;
+}
+.ljb_pyww{
+	width: 1.81rem;
+	height: 0.34rem;
+	position: absolute;
+	top: 66%;
+	left: 4%;
+	font-size: 0;
+}
+.ljb_pyww>img{
+	width: 100%;
+}
+.ljb_uul{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	position: absolute;
+	top: 75%;
+	left: 0%;
+	font-size: 0;
+	margin-bottom: 0.2rem;
+}
+.ljb_uul>li{
+	width: 7.5rem;
+	height: 2.5rem;
+	float: left;
+	font-size: 0;
+}
+.ljb_uul>li>a>img{
+	width: 100%;
+}

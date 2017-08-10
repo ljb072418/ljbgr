@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>珏品JUNPIN创意生活app 享生活爱创意</title>
+	<script src="../common/js/jquery.min.js"></script>
+	<script src='../js/swiper.min.js'></script>
+	<script src="../common/js/common.js"></script>
+
+	<link rel="stylesheet" href="../common/css/common.css">
+	<link rel="stylesheet" href="../css/ljb_shanping.css">
+	<link rel="stylesheet" href="../css/swiper.min.css">
+
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+
+	<meta name="x5-orientation" content="portrait | landscape" />
+		<!---->
+	<meta name="screen-orientation" content="portrait">
+		<!--全屏问题-->
+	<meta name="x5-fullscreen" content="true" />
+	<meta name="full-screen" content="yes">
+		<!--禁止打电话、登录邮箱-->
+	<meta name="format-detection" content="telephone=no, email=no" />
+</head>
+<body>
+	<div class="swiper-container tu">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="../img/ljb/ljb_shangping3 (3).png" alt=""></div>
+        <div  class="swiper-slide"><img src="../img/ljb/ljb_shangping3 (2).png" alt=""></div>
+        <div class="swiper-slide">
+        	<a href="ljb-shouye.html"><img src="../img/ljb/ljb_shangping3 (1).png" alt=""></a>
+        </div>
+      </div>
+    <div class="swiper-pagination"></div>
+    </div>
+<script>        
+//var mySwiper = new Swiper ('.swiper-container', {
+//  // direction: 'vertical',
+//  loop: true,
+//  effect : 'coverflow"',
+//  autoplay : 2000,
+//  pagination : '.swiper-pagination',
+//  
+//  pagination: '.swiper-pagination',
+//
+//}) 
+var swiper = new Swiper('.swiper-container',{
+        direction: 'horizontal',
+        loop: false,
+//      onTouchMove: function(swiper){
+//        if(swiper.activeIndex == 2){
+//          swiper.lockSwipeToPrev();
+//        }else{
+//          swiper.unlockSwipeToPrev();
+//        }
+//      }
+    });
+</script>
+</body>
+</html>

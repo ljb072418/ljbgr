@@ -1,0 +1,9 @@
+$(document).ready(function(){
+	$('.zxq-head1').children().each(function(){
+		$(this).on('touchstart',function(){
+			$('.zxq-head1').find('span').removeClass('zxq-first');
+			$(this).addClass('zxq-one').siblings().removeClass("zxq-one");
+			$(this).find('span').addClass('zxq-first');
+		})
+	})
+})

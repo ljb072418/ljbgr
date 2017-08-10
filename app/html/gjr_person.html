@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+
+		<meta name="x5-orientation" content="portrait | landscape" />
+		<!---->
+		<meta name="screen-orientation" content="portrait">
+		<!--全屏问题-->
+		<meta name="x5-fullscreen" content="true" />
+		<meta name="full-screen" content="yes">
+		<!--禁止打电话、登录邮箱-->
+		<meta name="format-detection" content="telephone=no, email=no" />
+	</head>
+	<link rel="stylesheet" href="../common/css/common.css" />
+	<link rel="stylesheet" href="../css/gjr_person.css" />
+	<script src="../common/js/jquery.min.js"></script>
+	<script src="../js/gjr_person.js"></script>
+	<script src='../common/js/common.js'></script>
+	<script type="text/javascript" src="../common/js/iscroll.js"></script>
+	<script type="text/javascript">
+        var myScroll;
+        function loaded () {
+            myScroll = new IScroll('#wrapper', {
+                scrollbars: true,
+                mouseWheel: true,
+                interactiveScrollbars: true,
+                shrinkScrollbars: 'scale',
+                fadeScrollbars: true,
+                click:true
+            });
+        }
+	</script>
+	<style>
+		#wrapper {
+			position: absolute;
+			z-index: 1;
+			top: 0px;
+			bottom: 0px;
+			left: 0;
+			width: 100%;
+			overflow: hidden;
+		}
+		#scroller {
+			position: absolute;
+			z-index: 1;
+			-webkit-tap-highlight-color: rgba(0,0,0,0);
+			width: 100%;
+		}
+	</style>
+	<body onload="loaded()">
+		<div class="gjr_header">
+			<div class="gjr_back">
+				<img src="../img/gjr-img/head_06.png" alt="" />
+				
+			</div>
+			<div class="gjr_person">
+				<img src="../img/gjr-img/head_03.png" alt="" />
+				
+			</div>
+			<div class="gjr_share">
+				<span></span>
+				<img src="../img/gjr-img/head_09.png" alt="" />
+			</div>
+		</div>
+		<div id="wrapper">
+			<div class="gjr_box" id='scroller'>
+				
+				<div class="gjr_home">
+					<div class="gjr_picture"></div>
+					<div class="gjr_detail">
+						<div class="gjr_dleft">
+							<div class="gjr_name">
+								<h1>Park</h1>
+								<p>.Christ</p>
+								<img src="../img/gjr-img/vip.png" alt="" />
+								<img src="../img/gjr-img/star2_13.png" alt="" />
+							</div>
+							<span></span>
+							<h2>越努力越幸运坚持才有希望 ...</h2>
+						</div>
+						<div class="gjr_dright">
+							<span></span>
+						</div>
+					</div>
+				</div>
+				<!--付款信息-->
+				<div class="gjr_money">
+					<div class="gjr_mhead">
+						<a href="javascript:;">
+							<img src="../img/gjr-img/money_09.png" alt="" />
+						</a>
+						
+						<a href="javascript:;">
+							<img src="../img/gjr-img/money_11.png" alt="" />
+						</a>
+						<a href="javascript:;">
+							<img src="../img/gjr-img/money_13.png" alt="" />
+						</a>
+						<a href="javascript:;">
+							<img src="../img/gjr-img/money_15.png" alt="" />
+						</a>
+						<a href="javascript:;">
+							<img src="../img/gjr-img/money_18.png" alt="" />
+						</a>
+						
+					</div>
+					<div class="gjr_mbottom">
+						<a href="zxq-zc.html">
+							<img src="../img/gjr-img/gjr_qz3Dt_03.png" alt="" />
+						</a>
+						<a href="javascript:;">
+							<img src="../img/gjr-img/gjr_qz3Dt_05.png" alt="" />
+						</a>
+						<a href="gjr_myqz.html">
+							<img src="../img/gjr-img/gjr_qz3Dt_07.png" alt="" />
+						</a>
+						
+					</div>
+				</div>
+				<div class="gjr_shead">
+						<div class="gjr_dong gjr_one"><span class="gjr_first">动态</span></div>
+						<div class="gjr_guan"><span>关注</span></div>
+					</div>
+				<div class="gjr_add">
+					<img src="../img/gjr-img/add1_03.png" alt="" />
+				</div>
+				<div class="gjr_status">
+					<div class="gjr_user">
+						<img src="../img/gjr-img/gjr_15.png" alt="" />
+						<div class="gjr_sright">
+							<h1>Crystal</h1>
+							<div class="gjr_star1"><img src="../img/gjr-img/star2_13.png" alt="" /></div>
+							<h2>2  hours ago</h2>
+							<a href="gjr_friend.html">
+								<img src="../img/gjr-img/qt_07.png" alt="" />
+							</a>
+						</div>
+					</div>
+				</div>
+				<!--展示-->
+				<ul class="gjr_display">
+					<li>
+						<a href="javascript:;">
+							<img src="../img/gjr-img/qt_11.png" alt="" />
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">
+							<img src="../img/gjr-img/qt_13.png" alt="" />
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">
+							<img src="../img/gjr-img/qt_15.png" alt="" />
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">
+							<img src="../img/gjr-img/qt_19.png" alt="" />
+						</a>
+					</li>
+				</ul>
+				
+			</div>
+		</div>
+		<div id ="bottom">
+			<ul>
+				<li>
+					<a href="ljb-shouye.html"><img src="../img/gjr-img/bottom_07.png"></a>
+					<div><img src="../img/bottom_xian.png"></div>
+				</li>
+				<li>
+					<a href="zxq-fenlei.html"><img src="../img/bottom_fenlei.png"></a>
+					<div><img src="../img/bottom_xian.png"></div>
+				</li>
+				<li>
+					<a href="zxq-ysj.html"><img src="../img/bottom_xiangji.png"></a>
+					<div><img src="../img/bottom_xian.png"></div>
+				</li>
+				<li>
+					<a href="gjr_shopcar.html"><img src="../img/bottom_gouwuche.png"></a>
+					<div><img src="../img/bottom_xian.png"></div>
+				</li>
+				<li>
+					<a href="gjr_person.html"><img src="../img/gjr-img/bottom_10.png"></a>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

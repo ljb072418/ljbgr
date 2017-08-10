@@ -1,0 +1,401 @@
+body{
+	width: 7.5rem;
+	height: auto;
+	background: #F4F4F4;
+}
+.ljb_box{
+	width: 100%;
+	height: 2.0rem;
+	background:  #F4F4F4;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+}
+.ljb_box>.ljb_biaoti{
+	width: 7rem;
+	height: 0.66rem;
+	margin: 0 auto;
+	background: #F0F2F3;
+	padding-top: 0.17rem;
+}
+.ljb_box>.ljb_biaoti>.left{
+	display: block;
+	float: left;
+	width: 0.4rem;
+	height: 0.4rem;
+	font-size: 0;
+}
+.ljb_box>.ljb_biaoti>.left img{
+	width: 100%;
+	line-height: 0.4rem;
+}
+.ljb_box>.ljb_biaoti>.right{
+	display: block;
+	float: right;
+	width: 0.4rem;
+	height: 0.4rem;
+	font-size: 0;
+}
+.ljb_box>.ljb_biaoti>.right img{
+	width: 100%;
+	line-height: 0.4rem;
+}
+.ljb_box>.ljb_biaoti>div{
+	width: 4.06rem;
+	height: 1.34rem;
+}
+.ljb_box>.ljb_biaoti>div>img{
+	width: 100%;
+	margin-top: 0.2rem;
+}
+.ljb_banner{
+	width: 100%;
+	height: 5.7rem;
+	position: relative;
+	background: #F4F4F4;
+	margin-top: 2rem;
+}
+.ljb_banner>img{
+	width: 100%;
+}
+.l-banner{
+	width: 6.67rem;
+	height: 5.12rem;
+	position: absolute;
+	top: 10%;
+	left: 5%;
+}
+.l-banner>img{
+	width: 100%;
+}
+
+.l-banner>p{
+	display: inline-block;
+	font-size: 0.15rem;
+	position: absolute;
+	top: 90%;
+	left: 52%;
+	color: #6F7675;
+}
+.l-banner>h3{
+	font-size: 0.18rem;
+	display: inline-block;
+	position: absolute;
+	top: 90%;
+	left: 43%;
+	color: #6F7675;
+}
+.l-banner>h4{
+	font-size: 0.18rem;
+	display: inline-block;
+	position: absolute;
+	top: 90%;
+	left: 48%;
+	color: #6F7675;
+}
+.l-banner>a>img{
+	width: 87%;
+	position: absolute;
+	top: 15%;
+	left: 5%;
+}
+.l-banner>.bb{
+	width: 0.84rem;
+	height: 0.6rem;
+	display: block;
+	position: absolute;
+	right: 10%;
+	bottom: 5%;
+}
+.l-banner>.bb img{
+	width: 100%;
+
+}
+/* 最大 */
+.ljb_poiu{
+	width: 7.5rem;
+	height: 1rem;
+	background: #F4F4F4;
+	position: relative;
+}
+.ljb_xingxing{
+	width:1.78rem;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+	position: absolute;
+	top: -40%;
+	left: 38%;
+}
+.ljb_xingxing >img{
+	width: 100%;
+}
+.ljb_xiezi{
+	width: 3rem;
+	height: 0.38rem;
+	margin: 0 auto;
+	position: absolute;
+	top: 85%;
+	left: 30%;
+}
+.ljb_xiezi >h1{
+	font-size: 0.4rem;
+    color: #343434;
+    font-family: "苹方";
+    font-weight: 900;
+}
+.ljb_xiezi >h2{
+	font-size: 0.25rem;
+	margin-top: 0.1rem;
+	font-family: "苹方";
+	margin-left: 0.9rem;
+	font-weight: 700;
+}
+.ljb_xiezi >p{
+	width: 5.6rem;
+	font-size: 0.24rem;
+    font-family: "苹方";
+    color: #999999;
+    margin-top: 0.2rem;
+    margin-left: -1.2rem;
+}
+.ljb_xiezi >p.ljb_hang{
+	width: 2.76rem;
+    height: 0.24rem;
+    margin: 0 auto;
+    font-size: 0.24rem;
+    font-family: "苹方";
+    color: #999999;
+}
+.ljb_pl{
+	width: 1.55rem;
+	height: 0.4rem;
+	display: block;
+	border-radius: 0.22rem;
+	border: 1px solid #ab7e4a;
+	margin: 0 auto;
+	 font-size: 0.22rem;
+    font-family: "苹方";
+    color: #7e7e7e;
+    text-align: center;
+    line-height: 0.35rem;
+    font-weight: 700;
+    margin-top: 37%;
+}
+.ljb_rmb{
+	width:7.5rem ;
+	height: 0.6rem;
+}
+.ljb_rmb >a{
+	display: block;
+	width: 2.22rem;
+	height: 0.6rem;
+	margin: 0 auto;
+	font-size: 0;
+	margin-top: 0.3rem;
+}
+.ljb_rmb >a >img{
+	width: 100%;
+	margin-top: 0.1rem;
+}
+.ljb_color{
+	width:7.5rem;
+	height: 0.69rem;
+}
+.ljb_color>img{
+	width: 100%;
+}
+.ljb_colortwo{
+	width: 4.5rem;
+	height: 1.34rem;
+	margin: 0 auto;
+}
+.ljb_colortwo>ul{
+	width: 100%;
+	height: 100%;
+}
+.ljb_colortwo>ul>li{
+	width: 25%;
+	float: left;
+	height: 1.34rem;
+	margin-top: 0.5rem;
+}
+.ljb_colortwo>ul>li>img{
+	width: 100%;
+}
+.ljb_fenlei{
+	width:7.5rem;
+	height: 0.69rem;
+	margin-top: 1rem;
+}
+.ljb_fenlei>img{
+	width: 100%;
+}
+.ljb_fenleitwo{
+	width: 5.1rem;
+	height: 0.6rem;
+	margin: 0 auto;
+	margin-top: 0.8rem;
+}
+.ljb_fenleitwo>ul{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.ljb_fenleitwo>ul>li{
+	width: 25%;
+	float: left;
+}
+/* .ljb_fenleitwo>ul>li>a:hover{
+	background: #ccc;
+	color: #fff;
+} */
+.ljb_fenleitwo>ul>li>a{
+	width: 1.1rem;
+	height: 0.6rem;
+	background: #fff;
+    float: left;
+    margin-right: 0.2rem;
+    border-radius: 0.3rem;
+    border: 2px solid #d7d7d7;
+    box-sizing: border-box;
+    font-size: 0.26rem;
+    font-family: San Francisco display;
+    color: #6c6c6c;
+    font-weight: 700;
+    text-align: center;
+    line-height: 0.56rem;
+    display: block;
+}
+.ljb_jiajian{
+	width: 7.5rem;
+	height: 1.86rem;
+	background: #F2F2F2;
+	margin-top: 0.2rem;
+	position: relative;
+}
+.ljb_jiajian>a.ooo{
+	display: block;
+	width: 0.58rem;
+	height: 0.58rem;
+	margin-left: 25%;
+	position: absolute;
+	top: 49%;
+	left: 0%;
+	z-index: 99;
+	font-size: 0;
+}
+.ljb_jiajian>a>img{
+	width: 100%;
+}
+.ljb_jiajian>a.ooc{
+	float: right;
+	margin-right: 25%;
+	position: absolute;
+	display: block;
+	width: 0.58rem;
+	height: 0.58rem;
+	top: 49%;
+	right: 3%;
+	font-size: 0;
+}
+.ljb_jiajian>a.oob{
+	width: 6rem;
+	display: block;
+	float: left;
+	position: absolute;
+	top: 20%;
+	left: 9%;
+
+}
+.ljb_jiajian>p{
+	font-size: 0.3rem;
+	position: absolute;
+	top: 53%;
+	left: 47%;
+	z-index: 60;
+	font-family: "苹方";
+}
+.ljb_xs{
+	width: 7.02rem;
+	height: 3.62rem;
+	margin: 0 auto;
+}
+.ljb_xs>img{
+	width: 100%;
+}
+.ljb_xiangguan{
+	width: 7.02rem;
+	height: 0.4rem;
+	margin: 0 auto;
+	margin-top: 0.1rem;
+}
+.ljb_xiangguan>img{
+	width: 100%;
+}
+.ljb_xg{
+	width: 7.5rem;
+	height: 5rem;
+	/* background: red; */
+	overflow: hidden;
+	border: 2px solid #ccc;
+	margin-top: 0.5rem;
+	margin-bottom: 1.2rem;
+}
+.ljb_xg a{
+	width: 42%;
+	height: 95%;
+	display: block;
+	float: left;
+	margin-left: 0.2rem;
+	margin-top: 0.2rem;
+	font-size: 0;
+}
+.ljb_xg a img{
+	width: 100%;
+	height: 100%;
+
+}
+
+
+.ljb_bottome{
+	width: 100%;
+	height: 0.96rem;
+	z-index: 999999;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+.ljb_bottome>ul{
+	width: 100%;
+	height: 100%;
+}
+.ljb_bottome>ul>li{
+	width: 50%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	background-size: 100%;
+}
+.ljb_bottome>ul>li:last-child{
+	background-image: url(../img/hsf-img/hsf-lijidingzhi.png);	
+}
+.ljb_bottome>ul>li:first-child{
+	background-image: url(../img/hsf-img/hsf-jiarugouwu.png);
+}
+/*.ljb_bottome>ul>li>a{
+	display: block;
+	width:100%;
+	height:100%;
+}*/
+.ljb_bottome>ul>li>a>h1{
+	margin-left:0.65rem;
+	margin-top:0.16rem;
+	color:#f2f2f2;
+}
+.ljb_bottome>ul>li>a>h2{
+	margin-left:0.65rem;
+	margin-top:0.03rem;
+	color:#f2f2f2;
+}

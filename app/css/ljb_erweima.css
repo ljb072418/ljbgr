@@ -1,0 +1,11 @@
+.body{
+	height: 13.35rem;
+}
+.ljb_bannerr{
+	width: 7.5rem;
+	height: 100%;
+	font-size: 0;
+}
+.ljb_bannerr>a>img{
+	width: 100%;
+}

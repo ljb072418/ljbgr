@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+
+		<meta name="x5-orientation" content="portrait | landscape" />
+		<!---->
+		<meta name="screen-orientation" content="portrait">
+		<!--全屏问题-->
+		<meta name="x5-fullscreen" content="true" />
+		<meta name="full-screen" content="yes">
+		<!--禁止打电话、登录邮箱-->
+		<meta name="format-detection" content="telephone=no, email=no" />
+	</head>
+	<link rel="stylesheet" href="../common/css/common.css" />
+	<link rel="stylesheet" href="../css/gjr_goods.css" />
+	<script src="../common/js/jquery.min.js"></script>
+	<script src="../js/gjr_goods.js"></script>
+	<script src='../common/js/common.js'></script>
+	<script type="text/javascript" src="../common/js/iscroll.js"></script>
+	<script type="text/javascript">
+        var myScroll;
+        function loaded () {
+            myScroll = new IScroll('#wrapper',{
+                scrollbars: true,
+                mouseWheel: true,
+                interactiveScrollbars: true,
+                shrinkScrollbars: 'scale',
+                fadeScrollbars: true,
+                click:true
+            });
+        }
+	</script>
+	<style>
+		#wrapper {
+			position: absolute;
+			z-index: 1;
+			top: 0px;
+			bottom: 0px;
+			left: 0;
+			width: 100%;
+			overflow: hidden;
+		}
+		#scroller {
+			position: absolute;
+			z-index: 1;
+			-webkit-tap-highlight-color: rgba(0,0,0,0);
+			width: 100%;
+		}
+	</style>
+	<body onload="loaded()"> 
+		<div class="gjr_alert">
+			<div class="gjr_top">
+				<div class="left">
+					<h6>选择类型</h6>
+					<span></span><span></span>
+				</div>
+				<div class="right">
+					<span>+</span>
+				</div>
+				
+			</div>
+			<ul class="gjr_tab">
+				<li>
+					<div class="gjr_left">
+						<h3 class='gjr'>Art Work</h3>
+						<p class='gjr'>工艺品</p>
+					</div>
+					<div class="gjr_right">
+						<span class='gjr'>109</span>
+					</div>
+				</li>
+				<li>
+					<div class="gjr_left">
+						<h3 class="gjr_active">Furniture</h3>
+						<p class="gjr_active">家具用品</p>
+					</div>
+					<div class="gjr_right">
+						<span class="gjr_active">109</span>
+					</div>
+				</li>
+				<li>
+					<div class="gjr_left">
+						<h3 class='gjr'>Dress</h3>
+						<p class='gjr'>服饰</p>
+					</div>
+					<div class="gjr_right">
+						<span class='gjr'>109</span>
+					</div>
+				</li>
+				<li>
+					<div class="gjr_left">
+						<h3 class='gjr'>Plants</h3>
+						<p class='gjr'>绿植</p>
+					</div>
+					<div class="gjr_right">
+						<span class='gjr'>109</span>
+					</div>
+				</li>
+				<li class="gjr_s">
+					<div class="gjr_left">
+						<h3 class='gjr'>Others</h3>
+						<p class='gjr'>其它</p>
+					</div>
+					<div class="gjr_right">
+						<span class='gjr'>109</span>
+					</div>
+				</li>
+			</ul>
+			<div class="gjr_ge">
+				<h2 class="gjr_h2 gjr_h2s">0</h2>
+				<h2 class="gjr_h2 gjr_h2s">200</h2>
+				<h2 class="gjr_h2">500</h2>
+				<h2 class="gjr_h2">1000</h2>
+				<h2 class="gjr_h2">2000</h2>
+				<h2 class="gjr_h2 gjr_hs">5000</h2>
+			</div>
+			<div class="gjr_big">
+				<div class="gjr_jia">
+					<div class="gjr_zou"></div>
+					<div class="circle1"></div>
+					<div class="circle2"></div>
+				</div>
+			</div>
+			<div class="gjr_finish">
+				<a href="javascript:;">
+					<img src="../img/gjr-img/gjr_g_finish_15.png" alt="" />
+				</a>
+			</div>
+		</div>
+		<div id="wrapper">
+			<div id='scroller'>
+				<div class="gjr_goods">
+					
+					<div class="gjr_ghead">
+						<!--<img src="../img/gjr-img/gjr_gbanner_03.png" alt="" />-->
+						<div class="gjr_back">
+							<a href="gjr_made.html">
+								
+								<img src="../img/gjr-img/gjr_cback_03.png" alt="" />
+							</a>
+						</div>
+						<div class="gjr_shai">
+							<a href="javascript:;">
+								<img src="../img/gjr-img/gjr_gshai_03.png" alt="" />
+							</a>
+						</div>
+					</div>
+					<div class="gjr_shi">
+						<ul class="gjr_six">
+							<li class='gjr_r'>
+								<a href="hsf-dingzhixiangq.html">
+									<img src="../img/gjr-img/gjr_gshai_10.png" alt="" />
+									<div class="gjr_gline"></div>
+									<h1>便携小凳</h1>
+									<span>Portable</span><span>stool</span>
+									<img src="../img/gjr-img/gjr_gline_11.png" alt="" />
+									<span class='gjr_text'>2345876</span>
+								</a>
+								<div class="gjr_gstar">
+									<img class='star' src="../img/gjr-img/gjr_gstar_11.png" alt="" />
+								</div>
+							</li>
+							<li class='gjr_r'>
+								<a href="hsf-dingzhixiangq.html">
+									<img src="../img/gjr-img/gjr_gshai_12.png" alt="" />
+									<div class="gjr_gline"></div>
+									<h1>自创摆件</h1>
+									<span>Portable</span><span>stool</span>
+									<img src="../img/gjr-img/gjr_gline_11.png" alt="" />
+									<span class='gjr_text'>2345876</span>
+								</a>
+								<div class="gjr_gstar">
+									<img class='star' src="../img/gjr-img/gjr_gstar_11.png" alt="" />
+								</div>
+							</li>
+							<li>
+								<a href="hsf-dingzhixiangq.html">
+									<img src="../img/gjr-img/gjr_gshai_14.png" alt="" />
+									<div class="gjr_gline"></div>
+									<h1>陶艺水杯</h1>
+									<span>Portable</span><span>stool</span>
+									<img src="../img/gjr-img/gjr_gline_11.png" alt="" />
+									<span class='gjr_text'>625544</span>
+								</a>
+								<div class="gjr_gstar">
+									<img class='star' src="../img/gjr-img/gjr_gstar_11.png" alt="" />
+								</div>
+							</li>
+							<li class='gjr_r'>
+								<a href="hsf-dingzhixiangq.html">
+									<img src="../img/gjr-img/gjr_gshai_24.png" alt="" />
+									<div class="gjr_gline"></div>
+									<h1>复古皮鞋</h1>
+									<span>Portable</span><span>stool</span>
+									<img src="../img/gjr-img/gjr_gline_11.png" alt="" />
+									<span class='gjr_text'>45752</span>
+								</a>
+								<div class="gjr_gstar">
+									<img class='star' src="../img/gjr-img/gjr_gstar_11.png" alt="" />
+								</div>
+							</li>
+							<li class='gjr_r'>
+								<a href="hsf-dingzhixiangq.html">
+									<img src="../img/gjr-img/gjr_gshai_26.png" alt="" />
+									<div class="gjr_gline"></div>
+									<h1>懒人沙发</h1>
+									<span>Portable</span><span>stool</span>
+									<img src="../img/gjr-img/gjr_gline_11.png" alt="" />
+									<span class='gjr_text'>2457375</span>
+								</a>
+								<div class="gjr_gstar">
+									<img class='star' src="../img/gjr-img/gjr_gstar_11.png" alt="" />
+								</div>
+							</li>
+							<li>
+								<a href="hsf-dingzhixiangq.html">
+									<img src="../img/gjr-img/gjr_gshai_28.png" alt="" />
+									<div class="gjr_gline"></div>
+									<h1>猫头鹰闹钟</h1>
+									<span>Portable</span><span>stool</span>
+									<img src="../img/gjr-img/gjr_gline_11.png" alt="" />
+									<span class='gjr_text'>1425754</span>
+								</a>
+								<div class="gjr_gstar">
+									<img class='star' src="../img/gjr-img/gjr_gstar_11.png" alt="" />
+								</div>
+							</li>
+						</ul>
+					</div>
+					<img src="../img/gjr-img/gjr_gbanner_07.png" alt="" class='imgten'/>
+					
+					<div class='zxq-tj'>
+
+						<div class='zxq-tj1'>
+							<img src="../img/gjr-img/gjr_gg_15.png" alt="" class='zxq-tjimg1'/>
+							<div class='zxq-tjright'>
+								<h4>CLASSIC and</h4>
+								<h6>牛仔外套系列</h6>
+								<h5>限量</h5>
+								<h3>热卖</h3>
+								<h1>699</h1>
+								<img src="../img/zxq-img/zxq-hd.png" alt="" class='zxq-tjhd'/>
+								<img src="../img/zxq-img/zxq-tj1xiao1.png" alt="" class='zxq-ggimg zxq-ggimg1'/>
+								<img src="../img/zxq-img/zxq-tj1xiao2.png" alt="" class='zxq-ggimg zxq-ggimg2'/>
+								<img src="../img/zxq-img/zxq-tj1xiao3.png" alt="" class='zxq-ggimg zxq-ggimg3'/>
+								<img src="../img/zxq-img/zxq-tj1xiao4.png" alt="" class='zxq-ggimg zxq-ggimg4'/>
+								<img src="../img/zxq-img/zxq-tj1xiao5.png" alt="" class='zxq-ggimg zxq-ggimg5'/>
+								<img class='gjr_rmb' src="../img/gjr-img/gjr_clothes_03.png" alt="" />
+							</div>
+						</div>
+						<div class='zxq-tj2'>
+							<img src="../img/gjr-img/gjr_gg_18.png" alt="" class='zxq-tjimg1'/>
+							<div class='zxq-tjright'>
+								<h4>CLASSIC the chart</h4>
+								<h6>现代座椅系列</h6>
+								<h5>限量</h5>
+								<h3>热卖</h3>
+								<h2>推荐</h2>
+								<h1>699</h1>
+								<img src="../img/zxq-img/zxq-hd.png" alt="" class='zxq-tjhd'/>
+								<img src="../img/zxq-img/zxq-tj1xiao1.png" alt="" class='zxq-ggimg zxq-ggimg1'/>
+								<img src="../img/zxq-img/zxq-tj1xiao2.png" alt="" class='zxq-ggimg zxq-ggimg2'/>
+								<img src="../img/zxq-img/zxq-tj1xiao3.png" alt="" class='zxq-ggimg zxq-ggimg3'/>
+								<img src="../img/zxq-img/zxq-tj1xiao4.png" alt="" class='zxq-ggimg zxq-ggimg4'/>
+								<img src="../img/zxq-img/zxq-tj1xiao5.png" alt="" class='zxq-ggimg zxq-ggimg5'/>
+								<img class='gjr_rmb' src="../img/gjr-img/gjr_clothes_03.png" alt="" />
+								
+							</div>
+						</div>
+						
+					</div>
+					<!--优品推荐结束-->
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

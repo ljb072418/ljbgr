@@ -1,0 +1,168 @@
+@charset "UTF-8";
+* {
+  font-size: 0.12rem;
+}
+
+body {
+  background: #f4f4f4;
+}
+
+.gjr_header {
+  width: 100%;
+  height: 1rem;
+  background: #202128;
+  position: fixed;
+  left: 0rem;
+  top: 0rem;
+  z-index: 10;
+}
+
+.gjr_back {
+  display: block;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: #333439;
+  border: 1px solid #fff;
+  margin-top: 0.3rem;
+  margin-left: 0.24rem;
+  color: #fff;
+  text-align: center;
+  line-height: 0.5rem;
+}
+
+.gjr_back > span {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: block;
+  background-image: url("../img/gjr-img/lr_03.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gjr_back img {
+  width: 100%;
+}
+
+.gjr_person {
+  width: 1.8rem;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.gjr_person > p {
+  width: 1.8rem;
+  text-align: center;
+  color: #fff;
+}
+
+.gjr_person > p:nth-child(1) {
+  font-size: 0.3rem;
+  margin-top: 0.2rem;
+}
+
+.gjr_person > p:nth-child(2) {
+  color: #737375;
+}
+
+.gjr_more {
+  width: 7.02rem;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 1.25rem;
+}
+
+.section {
+  width: 100%;
+  height: 1.2rem;
+  background: #fff;
+  border-radius: 3px;
+  margin-top: 0.3rem;
+  position: relative;
+}
+
+.section:last-child {
+  margin-top: 0.5rem;
+}
+
+.gjr_img {
+  width: 0.66rem;
+  height: 0.66rem;
+  float: left;
+  margin-left: 0.4rem;
+  margin-top: 0.25rem;
+}
+
+.gjr_img img {
+  width: 100%;
+}
+
+.gjr_text {
+  width: 3.5rem;
+  height: 100%;
+  float: left;
+  padding-left: 0.2rem;
+}
+
+.gjr_text h1 {
+  font-size: 0.26rem;
+  font-family: "微软雅黑";
+  margin-top: 0.2rem;
+  color: #666666;
+}
+
+.gjr_text p {
+  font-family: "微软雅黑";
+  font-size: 0.22rem;
+  color: #979797;
+}
+
+.gjr_icon {
+  width: 2rem;
+  height: 100%;
+  float: right;
+  line-height: 1.2rem;
+}
+
+.xia {
+  float: right;
+  margin-right: 0.2rem;
+  width: 0.26rem;
+  height: 0.2rem;
+  margin-top: 0.5rem;
+  border-radius: 50%;
+  display: block;
+  background-image: url("../img/gjr-img/lr_07.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gjr_line {
+  width: 1px;
+  height: 0.6rem;
+  background: #9e9e9e;
+  position: absolute;
+  left: 1.1rem;
+  top: 0.26rem;
+}
+
+.gjr_tab {
+  display: block;
+  width: 0.96rem;
+  height: 0.48rem;
+  float: right;
+  margin-top: 0.3rem;
+  margin-right: 0.2rem;
+  background-image: url("../img/gjr-img/more/button1.png");
+  background-size: cover;
+}
+
+.gjr_tabone {
+  background-image: url("../img/gjr-img/more/button2.png");
+}

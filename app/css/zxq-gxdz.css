@@ -1,0 +1,359 @@
+body{
+	background: #EFEFEF;
+}
+
+/*注册开始*/
+.zxq-gxdz{
+	width: 100%;
+	height: 0.74rem;
+	padding-top: 0.24rem;
+	box-sizing: border-box;
+	padding-left: 0.24rem;
+	
+}
+ a.zxq-dztop{
+	width: 1.14rem;
+	height: 0.5rem;
+	background: #e7e7e7;
+	border-radius: 0.4rem;
+	border: 1px solid #DCDCDC;
+	display: block;
+}
+/*返回按钮*/
+.zxq-gxdz a.zxq-dztop img{
+	width: 0.22rem;
+	height: 0.22rem;
+	border-radius: 50%;
+	background:#fff;
+	margin-left: 0.16rem;
+	margin-top: 0.14rem;
+	float: left;
+	margin-right: 0.08rem;
+	box-shadow: 0 0.01rem 0.08rem #c4c4c4;
+	padding:0.05rem;
+}
+.zxq-gxdz a.zxq-dztop .zxq-dl{
+	width: 0.5rem;
+	height: 0.22rem;
+	float: left;
+	margin-top: 0.08rem;
+	font-family: "苹方";
+	font-size: 0.22rem;
+	color: #a0a0a0;
+}
+.zxq-gxdz1{
+	width:7.5rem;
+	height:2.52rem;
+}
+.zxq-main{
+	width:7.5rem;
+	height:auto;
+	border-radius: 0.05rem;
+	background: #fff;
+}
+.zxq-main .zxq-first{
+	width:6.8rem;
+	height:3.72rem;
+}
+.zxq-main .zxq-first{
+	width:6.8rem;
+	height:1rem;
+	position: relative;
+	
+}
+.zxq-main .zxq-first .zxq-first1{
+	width:7.1rem;
+	height:1rem;
+	margin-left:0.4rem;
+}
+.zxq-main .zxq-dz{
+	width:7.5rem;
+	height:2.71rem;
+	margin-top:0.16rem;
+	overflow: hidden;
+}
+.zxq-main  ul{
+	/*width:8.46rem;*/
+	width:15rem;
+	height: 2.71rem;
+	margin-left:0.4rem;
+	margin-right:0.4rem;
+	
+}
+.zxq-main ul li{
+	width:2.05rem;
+	height: 2.71rem;
+	float: left;
+	position: relative;
+	margin-right:0.16rem;
+	
+}
+.zxq-main ul li img{
+	width:2.05rem;
+	height: 2.71rem;
+	
+}
+.zxq-main ul li input{
+	width:0.2rem;
+	height: 0.2rem;
+	border-radius: 50%;
+	border:0.02rem solid #e9e9e9;
+	position: absolute;
+	right:0.13rem;
+	top:0.18rem;
+}
+.zxq-main ul li input.active{
+	width:0.17rem;
+	height: 0.17rem;
+	border-radius: 50%;
+	border:0.05rem solid #B8978B;
+	background:#713018;
+}
+.zxq-main .zxq-jgqy{
+	width:6.8rem;
+	height: 2.69rem;
+	margin-left: 0.4rem;
+}
+.zxq-main .zxq-jgqy .zxq-jg{
+	width:7.1rem;
+	height: 1rem;
+}
+.zxq-main .zxq-jgqy .zxq-jg1{
+	width:7.1rem;
+	height: 1.74rem;
+	margin-top:-0.27rem;
+}
+.zxq-main .zxq-xzfg{
+	width:7.1rem;
+	height: 4.42rem;
+	position: relative;
+}
+.zxq-main .zxq-xzfg .zxq-fg{
+	width:7.1rem;
+	height: 0.97rem;
+	margin-left: 0.4rem;
+}
+.zxq-main .zxq-xzfg a.zxq-xz{
+	display: block;
+	position: relative;
+}
+.zxq-main .zxq-xzfg a.zxq-xz h3{
+	width:1.9rem;
+	height:0.7rem;
+	background: #f2e2db;
+	border:0.02rem solid #c8a073;
+	font-size:0.26rem;
+	color:#87482b;
+	border-radius: 0.5rem;
+	font-family: '苹方';
+	text-align: center;
+	line-height: 0.7rem;
+	margin-left: 0.4rem;
+}
+.zxq-main .zxq-xzfg a.zxq-xz .zxq-circle,.zxq-main .zxq-xzfg a .zxq-circle1{
+	width:0.1rem;
+	height: 0.1rem;
+	border-radius: 50%;
+	background: #C8A073;
+	position: absolute;
+	left:0.36rem;
+	top:0.3rem;
+}
+.zxq-main .zxq-xzfg a.zxq-xz .zxq-circle1{
+	position: absolute;
+	left:2.24rem;
+	top:0.3rem;
+}
+.zxq-main .zxq-xzfg a.zxq-om{
+	display: block;
+}
+.zxq-main .zxq-xzfg a.zxq-om h3{
+	width:1.28rem;
+	height: 0.7rem;
+	border:0.02rem solid #c8a073;
+	font-size:0.26rem;
+	color:#87482b;
+	border-radius: 0.5rem;
+	font-family: '苹方';
+	text-align: center;
+	line-height: 0.7rem;
+	margin-left: 2.51rem;
+	position: absolute;
+	left:0;
+	top:1.2rem;
+}
+.zxq-main .zxq-xzfg a.zxq-rhl{
+	display: block;
+}
+.zxq-main .zxq-xzfg a.zxq-rhl h3{
+	width:1.50rem;
+	height: 0.7rem;
+	border:0.02rem solid #c8a073;
+	font-size:0.26rem;
+	color:#87482b;
+	border-radius: 0.5rem;
+	font-family: '苹方';
+	text-align: center;
+	line-height: 0.7rem;
+	margin-left: 2.51rem;
+	position: absolute;
+	left:1.64rem;
+	top:1.2rem;
+}
+.zxq-main .zxq-xzfg a.zxq-jyf{
+	display: block;
+}
+.zxq-main .zxq-xzfg a.zxq-jyf h3{
+	width:1.70rem;
+	height: 0.7rem;
+	border:0.02rem solid #c8a073;
+	font-size:0.26rem;
+	color:#87482b;
+	border-radius: 0.5rem;
+	font-family: '苹方';
+	text-align: center;
+	line-height: 0.7rem;
+	margin-left: 2.51rem;
+	position: absolute;
+	left:-2.1rem;
+	top:2.13rem;
+}
+.zxq-main .zxq-xzfg a.zxq-rsxqx{
+	display: block;
+}
+.zxq-main .zxq-xzfg a.zxq-rsxqx h3{
+	width:2.10rem;
+	height: 0.7rem;
+	border:0.02rem solid #c8a073;
+	font-size:0.26rem;
+	color:#87482b;
+	border-radius: 0.5rem;
+	font-family: '苹方';
+	text-align: center;
+	line-height: 0.7rem;
+	margin-left: 2.51rem;
+	position: absolute;
+	left:-0.2rem;
+	top:2.13rem;
+}
+.zxq-main .zxq-xzfg a.zxq-clzb{
+	display: block;
+}
+.zxq-main .zxq-xzfg a.zxq-clzb h3{
+	width:1.78rem;
+	height: 0.7rem;
+	border:0.02rem solid #c8a073;
+	font-size:0.26rem;
+	color:#87482b;
+	border-radius: 0.5rem;
+	font-family: '苹方';
+	text-align: center;
+	line-height: 0.7rem;
+	margin-left: 2.51rem;
+	position: absolute;
+	left:2.1rem;
+	top:2.13rem;
+	background: #f2e2db;
+}
+.zxq-main .zxq-xzfg a.zxq-clzb .zxq-circle,.zxq-main .zxq-xzfg a.zxq-clzb .zxq-circle1{
+	width:0.1rem;
+	height: 0.1rem;
+	border-radius: 50%;
+	background: #C8A073;
+	position: absolute;
+	right:0.675rem;
+	top:2.45rem;;
+}
+.zxq-main .zxq-xzfg a.zxq-clzb .zxq-circle1{
+	position: absolute;
+	left:4.57rem;
+	top:2.45rem;
+}
+.zxq-main .zxq-xzfg a.zxq-ygfyd{
+	display: block;
+}
+.zxq-main .zxq-xzfg a.zxq-ygfyd h3{
+	width:2.04rem;
+	height: 0.7rem;
+	border:0.02rem solid #c8a073;
+	font-size:0.26rem;
+	color:#87482b;
+	border-radius: 0.5rem;
+	font-family: '苹方';
+	text-align: center;
+	line-height: 0.7rem;
+	margin-left: 2.51rem;
+	position: absolute;
+	left:-2.1rem;
+	top:3.07rem;
+}
+.zxq-main .zxq-xzfg a.zxq-qszy{
+	display: block;
+}
+.zxq-main .zxq-xzfg a.zxq-qszy h3{
+	width:1.74rem;
+	height: 0.7rem;
+	border:0.02rem solid #c8a073;
+	font-size:0.26rem;
+	color:#87482b;
+	border-radius: 0.5rem;
+	font-family: '苹方';
+	text-align: center;
+	line-height: 0.7rem;
+	margin-left: 2.51rem;
+	position: absolute;
+	left:0.2rem;
+	top:3.07rem;
+}
+.zxq-main .zxq-xzfg .hdd{
+	width:7.1rem;
+	height: 0.64rem;
+	margin-left: 0.4rem;
+	margin-top:1.84rem;
+}
+.zxq-main .zxq-zc{
+	width:100%;
+	height:1.4rem;
+}
+.zxq-main .zxq-wczc{
+	width:3rem;
+	height: 1.01rem;
+	background: #592007;
+	border-radius: 0.5rem;
+	margin-bottom: 0.34rem;
+	margin-left: 0.43rem;
+	position: relative;
+}
+.zxq-main  .zxq-wczc h3{
+	height: 0.3rem;
+	font-size: 0.26rem;
+	color:#fff;
+	text-align: center;
+	line-height: 0.8rem;
+	font-family: '苹方';
+	font-weight: bold;
+}
+.zxq-main  .zxq-wczc h4{
+	height:0.2rem;
+	font-size: 0.18rem;
+	color:#d9d9d9;
+	text-align: center;
+	line-height: 1rem;
+	font-family: 'San Francisco Display';
+	font-weight: bold;
+	position: absolute;
+	left:0.74rem;
+	top:0.2rem;
+}
+.zxq-main  .zxq-wczc .zxq-circle2,.zxq-main  .zxq-wczc .zxq-circle3{
+	width:0.08rem;
+	height:0.08rem;
+	background: #ececec;
+	border-radius: 50%;
+	position: absolute;
+	top:0.47rem;
+	left:0.18rem;
+}
+.zxq-main  .zxq-wczc .zxq-circle3{
+	left:2.7rem;
+}

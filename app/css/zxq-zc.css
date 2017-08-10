@@ -1,0 +1,112 @@
+
+.zxq-head{
+	width:7.5rem;
+	height:1.36rem;
+	background-image: url('../img/zxq-img/zxq-zc.png');
+	background-position: center center;
+	background-size: 100% 100%;
+}
+.zxq-head a{
+	display: block;
+}
+.zxq-head img{
+	width:0.4rem;
+	height:0.4rem;
+	margin-top:0.3rem;
+	margin-bottom:0.66rem;
+	margin-left:0.24rem;
+}
+.zxq-head1{
+	width: 4.5rem;
+	height: 0.85rem;
+	margin: 0 auto;
+	background-image:url('../img/zxq-img/qt_03.png') ;
+	background-size: 100%;
+	background-position: center;
+	border-radius: 0.5rem;
+	overflow: hidden;
+	margin-top: -0.4rem;
+	margin-bottom: 0.2rem;
+}
+.zxq-yhb{
+	width: 46%;
+	height:90%;
+	float: left;
+	margin-top: 0.03rem;
+	margin-left: 0.15rem;
+	border-radius: 0.5rem;
+}
+.zxq-yhb span{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	border-radius: 0.5rem;
+	line-height: 0.5rem;
+	text-align: center;
+	font-weight: bold;
+	font-size: 0.18rem;
+	font-family: '苹方';
+}
+.zxq-yhb .zxq-two{
+	margin-top:-0.5rem;
+	color:#ffddcd;
+	line-height: 0.5rem;
+	font-size:0.12rem;
+	font-family: 'San Francisco Display';
+}
+
+.zxq-yhq{
+	width: 46%;
+	height: 90%;
+	color: #fff;
+	float: left;
+	border-radius:0.5rem;
+	margin-top: 0.03rem;
+	margin-left: 0.05rem;
+}
+.zxq-yhq span{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	float: left;
+	font-family: '苹方';
+	border-radius:0.5rem;
+	line-height: 0.5rem;
+	text-align: center;
+	font-weight: bold;
+	font-size: 0.18rem;
+}
+
+.zxq-yhq .zxq-three{
+	margin-top:-0.5rem;
+	color:#ffddcd;
+	line-height: 0.5rem;
+	font-size:0.11rem;
+	font-family: 'San Francisco Display';
+	float: right;
+}
+.zxq-main{
+	width:7.5rem;
+	height:auto;
+	margin-top:0.29rem;
+}
+.zxq-main img{
+	width:7.02rem;
+	height:2.5rem;
+	margin-left:0.24rem;
+	margin-right:0.24rem;
+	margin-bottom:0.15rem;
+	margin-top:-0.24rem;
+}
+.zxq-main .img1{
+	margin-top:0;
+}
+.zxq-one{
+	background: #fff;
+}
+span.zxq-first{
+	color: #454444!important;
+	line-height: 0.5rem;
+}
