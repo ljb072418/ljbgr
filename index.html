@@ -13,13 +13,15 @@
     <link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen">
     <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" property=""/>
     <!-- Flexslider-CSS -->
-    <!--<link rel="stylesheet" href="css/smoothbox.css" type='text/css' media="all"/> &lt;!&ndash; Smoothbox-CSS &ndash;&gt;-->
     <link href="css/JiSlider.css" rel="stylesheet"> <!-- Banner-Slider-CSS -->
     <link rel="stylesheet" href="css/easy-responsive-tabs.css"><!-- tabs -->
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
 
-    <script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>
+
+    <script data-main="js/main-built" src="js/require.js"></script>
     <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/ljb.js"></script>
 </head>
 <body>
 
@@ -454,7 +456,6 @@
         </div>
     </div>
 </div>
-
 <!-- //gallery -->
 
 <!-- mail -->
@@ -503,14 +504,8 @@
 </div>
 <!-- //mail -->
 
-<!--/footer -->
-
 </body>
 </html>
-<!-- js -->
-<!-- banner-slider -->
-<script src="js/JiSlider.js"></script>
-<script defer src="js/jquery.flexslider.js"></script>
 <script>
     $(window).load(function () {
         $('#JiSlider').JiSlider({color: '#fff', start: 3, reverse: true}).addClass('ff');
@@ -520,18 +515,6 @@
                 $('body').removeClass('loading');
             }
         });
-    })
-</script>
-<!-- //banner-slider -->
-<!-- menu -->
-<script type="text/javascript" src="js/main.js"></script>
-<!-- //menu -->
-<!-- responsive-tabs -->
-<script type="text/javascript" src="js/easy-responsive-tabs.js"></script>
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
-<script>
-    $(document).ready(function () {
         $('#verticalTab').easyResponsiveTabs({
             type: 'vertical',
             width: 'auto',
@@ -544,4 +527,5 @@
         $().UItoTop({easingType: 'easeOutQuart'});
     });
 </script>
+
 
