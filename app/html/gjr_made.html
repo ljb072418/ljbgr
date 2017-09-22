@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width">
+	<!--link rel="stylesheet" href="css/base.css"-->
+	<!--<link rel="stylesheet" href="css/list.css">-->
+	<script src="../js/rem.js"></script>
+	<!-- Add to homescreen for Safari on Ios -->
+	  <meta name="apple-mobile-web-app-capable" content="yes">
+	  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+	  <meta name="apple-mobile-web-app-title" content="todo">
+	  <link rel="apple-touch-icon" sizes="512x512" href="../img/gjr_made/ICON_00.png">
+	
+	  <!-- Add to homescreen for Chrome on Android -->
+	  <meta name="mobile-web-app-capable" content="yes">
+	  <meta name="application-name" content="todo">
+	  <meta name="theme-color" content="#2F3BA2">
+	  <link rel="icon" sizes="512x512" href="../img/gjr_made/ICON_00.png">
+	</head>
+	<link rel="stylesheet" href="../common/css/common.css" />
+	<link rel="stylesheet" href="../css/gjr_made.css" />
+	<link rel="stylesheet" href="../css/base.css" />
+	
+	<script src="../common/js/jquery.min.js"></script>
+	<script src='../common/js/common.js'></script>
+	<script type="text/javascript" src="../common/js/iscroll.js"></script>
+	<script type="text/javascript">
+        var myScroll;
+        function loaded () {
+            myScroll = new IScroll('#wrapper', {
+                scrollbars: true,
+                mouseWheel: true,
+                interactiveScrollbars: true,
+                shrinkScrollbars: 'scale',
+                fadeScrollbars: true,
+                click:true
+            });
+        }
+	</script>
+	<style>
+		#wrapper {
+			position: absolute;
+			z-index: 1;
+			top: 0px;
+			bottom: 0px;
+			left: 0;
+			width: 100%;
+			overflow: hidden;
+		}
+		#scroller {
+			position: absolute;
+			z-index: 1;
+			-webkit-tap-highlight-color: rgba(0,0,0,0);
+			width: 100%;
+		}
+	</style>
+	<body onload="loaded()">
+		<!-- 头部开始 -->
+	<div class="header">
+		<div class="top">
+			<a href="ljb-shouye.html" class="fanhui"></a>
+		</div>
+		<div class="bottom"></div>
+	</div>
+	<div id="header"></div>
+<!-- 头部结束 -->
+	<div id="wrapper">
+		<div id='scroller'>
+<!--  推荐开始  -->
+			<div class="tuijian1">
+				<img class="shangtu" src="../img/gjr_made/dingzhi_shangtu.png" alt="加载失败">
+				<div class="zhezhao">
+					<div class="zi">
+						<div class="bt">创意家居实物定制</div>
+						<div class="xian"></div>
+						<div class="jiaobiao"></div>
+					</div>
+					<div class="tu"></div>
+				</div>
+			</div>
+				<div class="tuijian1">
+				<img class="shangtu" src="../img/gjr_made/dingzhi_xiatu.png" alt="加载失败">
+				<div class="zhezhao s">
+					<div class="zi">
+						<div class="bt">创意摆件实物定制</div>
+						<div class="xian"></div>
+						<div class="jiaobiao"></div>
+					</div>
+					<div class="tu"></div>
+				</div>
+			</div>
+		<!--  推荐结束  -->
+		<!--  实物定制开始  -->
+		    <div class="shiwubiaoti"></div>
+		    <a href="gjr_goods.html"class="shiwu"></a>
+		    <div class="xunibiaoti"></div>
+		    <div class="xuni">
+		    	<div class="shang">
+		    		<div class="zuo"></div>
+		    		<div class="you">
+		    			<div class="english">Jasonlogo design</div>
+		    			<div class="chinese">北辰设计中心 为您倾心打造专属你的标志独一无二</div>
+		    			<div class="xing"></div>
+		    		</div>
+		    	</div>
+		    	<div class="xiatu"></div>
+		    </div>
+		    <div class="xuni">
+		    	<div class="shang">
+		    		<div class="zuo s"></div>
+		    		<div class="you">
+		    			<div class="english">Jasonlogo design</div>
+		    			<div class="chinese">北辰设计中心 为您倾心打造专属你的标志独一无二</div>
+		    			<div class="xing"></div>
+		    		</div>
+		    	</div>
+		    	<div class="xiatu s"></div>
+		    </div>
+		</div>
+	</div>
+	</body>
+</html>

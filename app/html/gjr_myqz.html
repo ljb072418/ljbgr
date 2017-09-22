@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+
+		<meta name="x5-orientation" content="portrait | landscape" />
+		<!---->
+		<meta name="screen-orientation" content="portrait">
+		<!--全屏问题-->
+		<meta name="x5-fullscreen" content="true" />
+		<meta name="full-screen" content="yes">
+		<!--禁止打电话、登录邮箱-->
+		<meta name="format-detection" content="telephone=no, email=no" />
+	</head>
+	<link rel="stylesheet" href="../common/css/common.css" />
+	<link rel="stylesheet" href="../css/gjr_myqz.css" />
+	<script src='../common/js/common.js'></script>
+	<script src="../common/js/jquery.min.js"></script>
+	<script src='../js/gjr_myqz.js'></script>
+	<script type="text/javascript" src="../common/js/iscroll.js"></script>
+	<script type="text/javascript">
+        var myScroll;
+        function loaded () {
+            myScroll = new IScroll('#wrapper', {
+                scrollbars: true,
+                mouseWheel: true,
+                interactiveScrollbars: true,
+                shrinkScrollbars: 'scale',
+                fadeScrollbars: true,
+                click:true
+            });
+        }
+	</script>
+	<style>
+		#wrapper {
+			position: absolute;
+			z-index: 1;
+			top: 0px;
+			bottom: 0px;
+			left: 0;
+			width: 100%;
+			overflow: hidden;
+		}
+		#scroller {
+			position: absolute;
+			z-index: 1;
+			-webkit-tap-highlight-color: rgba(0,0,0,0);
+			width: 100%;
+		}
+	</style>
+	<body onload="loaded()">
+		<div class="gjr_alert">
+			<a href="javascript:;">
+				<img src="../img/gjr-img/gjr_voices_03.png" alt="" />
+			</a>
+		</div>
+		<div class="gjr_header">
+			<a href="gjr_person.html" class="gjr_back">
+				<span></span>
+			</a>
+			<div class="gjr_person">
+				<p>我的圈子</p>
+				<p>JACKSON</p>
+			</div>
+		</div>
+		<div id="wrapper">
+			<div class="qz" id='scroller'>
+				
+				<div class="gjr_more">
+					<div class="section">
+						<div class="gjr_img">
+							<img src="../img/gjr-img/more/more_03.png" alt="" />
+						</div>
+						<div class="gjr_text">
+							<h1>新增好友</h1>
+							<p>查看我的新增好友信息</p>
+						</div>
+						<div class="gjr_icon">
+							<p class="gjr_nub">
+								<b class="gjr_num">28</b>
+							</p>
+						</div>
+						<span class='gjr_line'></span>
+					</div>
+					<div class="section">
+						<div class="gjr_img">
+							<img src="../img/gjr-img/more/more_06.png" alt="" />
+						</div>
+						<div class="gjr_text">
+							<h1>特别关注</h1>
+							<p>您已经设置了2位好友为特别关注</p>
+						</div>
+						<div class="gjr_icon">
+							<span class="xia"></span>
+						</div>
+						
+						<span class='gjr_line'></span>
+					</div>
+				
+					
+				</div>
+				<div class="gjr_search">
+					<div class="gjr_shead">
+						<p >您当前的好友数量为</p>
+						<span>240</span>
+					</div>
+					<div class="gjr_sbottom">
+						<img src="../img/gjr-img/wodequanzi/t_09.png" alt="" class='gjr_iconimg'/>
+						<input type="text" name='text'  class="gjr_input" placeholder="请输入您要搜索的好友..."/>
+						<img src="../img/gjr-img/wodequanzi/my_13.png" alt=""  class="gjr_voice"/>
+						
+					</div>
+				</div>
+				<!--最近联系人-->
+				<div class="gjr_recent">
+					<img src="../img/gjr-img/wodequanzi/recent_09.png" alt="" />
+				</div>
+				
+				<!--详情-->
+				<div class="gjr_status">
+					<div class="content">
+						<div class="gjr_user1 gjr_active" id="gjr_active">
+						
+							<div class="gjr_sright">
+								<h1>Coco</h1>
+								<div class="gjr_star1"><img src="../img/gjr-img/star2_13.png" alt="" /></div>
+								<h2>
+									<span>The Joy of Living</span>
+									<!--<i class="gjr_face"></i>-->
+									<span>People Who...</span>
+								</h2>
+								<a href="javascript:;" class="back">
+									<img class="gjr_phone gjr_dong" src="../img/gjr-img/wodequanzi/my_17.png" alt="" />
+								</a>
+								<a href="javascript:;" class="meile">
+									<img src="../img/gjr-img/wodequanzi/my_20.png" alt="" />
+								</a>
+							</div>
+						</div>
+						<div class="gjr_user" id="gjr">
+							<img src="../img/gjr-img/gjr_15.png" alt="" />
+							<div class="gjr_sright">
+								<h1>Coco</h1>
+								<div class="gjr_star1"><img src="../img/gjr-img/star2_13.png" alt="" /></div>
+								<h2>
+									<span>The Joy of Living</span>
+									<!--<i class="gjr_face"></i>-->
+									<span>People Who...</span>
+								</h2>
+								<a href="javascript:;"  class="zaixian">
+									<img src="../img/gjr-img/wodequanzi/my_17.png" alt="" />
+								</a>
+							</div>
+						</div>
+					</div>
+					
+					
+					<div class="content">
+						<div class="gjr_user1 gjr_active" id="gjr_active">
+						
+							<div class="gjr_sright">
+								<h1>Joy</h1>
+								<div class="gjr_star1"><img src="../img/gjr-img/star2_13.png" alt="" /></div>
+								<h2>
+									<span>The Joy of Living</span>
+									<!--<i class="gjr_face"></i>-->
+									<span>People Who...</span>
+								</h2>
+								<a href="javascript:;"  class="back">
+									<img class="gjr_phone gjr_dong" src="../img/gjr-img/wodequanzi/my_17.png" alt="" />
+								</a>
+								<a href="javascript:;"  class="meile">
+									<img src="../img/gjr-img/wodequanzi/my_20.png" alt="" />
+								</a>
+							</div>
+						</div>
+						<div class="gjr_user" id="gjr">
+							<img src="../img/gjr-img/gjr_18.png" alt="" />
+							<div class="gjr_sright">
+								<h1>Joy</h1>
+								<div class="gjr_star1"><img src="../img/gjr-img/star2_13.png" alt="" /></div>
+								<h2>
+									<span>The Joy of Living</span>
+									<!--<i class="gjr_face"></i>-->
+									<span>People Who...</span>
+								</h2>
+								<a href="javascript:;" class="zaixian">
+									<img src="../img/gjr-img/wodequanzi/my_17.png" alt="" />
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="gjr_friend">
+					<img src="../img/gjr-img/wodequanzi/friend_09.png" alt="" />
+				</div>
+				<div class="gjr_status">
+					<div class="content">
+						<div class="gjr_user1 gjr_active" id="gjr_active">
+						
+							<div class="gjr_sright">
+								<h1>Anndy</h1>
+								<div class="gjr_star1"><img src="../img/gjr-img/star2_13.png" alt="" /></div>
+								<h2>
+									<span>The Joy of Living</span>
+									<i class="gjr_face"></i>
+									<span>People Who...</span>
+								</h2>
+								<a href="javascript:;" class="back">
+									<img class="gjr_phone gjr_dong" src="../img/gjr-img/wodequanzi/my_17.png" alt="" />
+								</a>
+								<a href="javascript:;" class="meile">
+									<img src="../img/gjr-img/wodequanzi/my_20.png" alt="" />
+								</a>
+							</div>
+						</div>
+						<div class="gjr_user" id="gjr">
+							<img src="../img/gjr-img/gjr_21.png" alt="" />
+							<div class="gjr_sright">
+								<h1>Anndy</h1>
+								<div class="gjr_star1"><img src="../img/gjr-img/star2_13.png" alt="" /></div>
+								<h2>
+									<span>The Joy of Living</span>
+									<i class="gjr_face"></i>
+									<span>People Who...</span>
+								</h2>
+								<a href="javascript:;"  class="zaixian">
+									<img src="../img/gjr-img/wodequanzi/my_17.png" alt="" />
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="content">
+						<div class="gjr_user1 gjr_active" id="gjr_active">
+						
+							<div class="gjr_sright">
+								<h1>AIN</h1>
+								<div class="gjr_star1"><img src="../img/gjr-img/star2_13.png" alt="" /></div>
+								<h2>
+									<span>The Joy of Living</span>
+									<i class="gjr_face"></i>
+									<span>People Who...</span>
+								</h2>
+								<a href="javascript:;" class="back">
+									<img class="gjr_phone gjr_dong" src="../img/gjr-img/wodequanzi/my_17.png" alt="" />
+								</a>
+								<a href="javascript:;" class="meile">
+									<img src="../img/gjr-img/wodequanzi/my_20.png" alt="" />
+								</a>
+							</div>
+						</div>
+						<div class="gjr_user" id="gjr">
+							<img src="../img/gjr-img/gjr_24.png" alt="" />
+							<div class="gjr_sright">
+								<h1>AIN</h1>
+								<div class="gjr_star1"><img src="../img/gjr-img/star2_13.png" alt="" /></div>
+								<h2>
+									<span>The Joy of Living</span>
+									<i class="gjr_face"></i>
+									<span>People Who...</span>
+								</h2>
+								<a href="javascript:;"  class="zaixian">
+									<img src="../img/gjr-img/wodequanzi/my_17.png" alt="" />
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="content">
+						<div class="gjr_user1 gjr_active" id="gjr_active">
+						
+							<div class="gjr_sright">
+								<h1>Joy</h1>
+								<div class="gjr_star1"><img src="../img/gjr-img/star2_13.png" alt="" /></div>
+								<h2>
+									<span>The Joy of Living</span>
+									<!--<i class="gjr_face"></i>-->
+									<span>People Who...</span>
+								</h2>
+								<a href="javascript:;" class="back">
+									<img class="gjr_phone gjr_dong" src="../img/gjr-img/wodequanzi/my_17.png" alt="" />
+								</a>
+								<a href="javascript:;" class="meile">
+									<img src="../img/gjr-img/wodequanzi/my_20.png" alt="" />
+								</a>
+							</div>
+						</div>
+						<div class="gjr_user" id="gjr">
+							<img src="../img/gjr-img/gjr_26.png" alt="" />
+							<div class="gjr_sright">
+								<h1>Joy</h1>
+								<div class="gjr_star1"><img src="../img/gjr-img/star2_13.png" alt="" /></div>
+								<h2>
+									<span>The Joy of Living</span>
+									<!--<i class="gjr_face"></i>-->
+									<span>People Who...</span>
+								</h2>
+								<a href="javascript:;"  class="zaixian">
+									<img src="../img/gjr-img/wodequanzi/my_17.png" alt="" />
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="content">
+						<div class="gjr_user1 gjr_active" id="gjr_active">
+						
+							<div class="gjr_sright">
+								<h1>Anndy</h1>
+								<div class="gjr_star1"><img src="../img/gjr-img/star2_13.png" alt="" /></div>
+								<h2>
+									<span>The Joy of Living</span>
+									<i class="gjr_face"></i>
+									<span>People Who...</span>
+								</h2>
+								<a href="javascript:;" class="back">
+									<img class="gjr_phone gjr_dong" src="../img/gjr-img/wodequanzi/my_17.png" alt="" />
+								</a>
+								<a href="javascript:;" class="meile">
+									<img src="../img/gjr-img/wodequanzi/my_20.png" alt="" />
+								</a>
+							</div>
+						</div>
+						<div class="gjr_user" id="gjr">
+							<img src="../img/gjr-img/gjr_15.png" alt="" />
+							<div class="gjr_sright">
+								<h1>Anndy</h1>
+								<div class="gjr_star1"><img src="../img/gjr-img/star2_13.png" alt="" /></div>
+								<h2>
+									<span>The Joy of Living</span>
+									<i class="gjr_face"></i>
+									<span>People Who...</span>
+								</h2>
+								<a href="javascript:;"  class="zaixian">
+									<img src="../img/gjr-img/wodequanzi/my_17.png" alt="" />
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="content">
+						<div class="gjr_user1 gjr_active" id="gjr_active">
+						
+							<div class="gjr_sright">
+								<h1>Coco</h1>
+								<div class="gjr_star1"><img src="../img/gjr-img/star2_13.png" alt="" /></div>
+								<h2>
+									<span>The Joy of Living</span>
+									<!--<i class="gjr_face"></i>-->
+									<span>People Who...</span>
+								</h2>
+								<a href="javascript:;" class="back">
+									<img class="gjr_phone gjr_dong" src="../img/gjr-img/wodequanzi/my_17.png" alt="" />
+								</a>
+								<a href="javascript:;" class="meile">
+									<img src="../img/gjr-img/wodequanzi/my_20.png" alt="" />
+								</a>
+							</div>
+						</div>
+						<div class="gjr_user" id="gjr">
+							<img src="../img/gjr-img/gjr_18.png" alt="" />
+							<div class="gjr_sright">
+								<h1>Coco</h1>
+								<div class="gjr_star1"><img src="../img/gjr-img/star2_13.png" alt="" /></div>
+								<h2>
+									<span>The Joy of Living</span>
+									<!--<i class="gjr_face"></i>-->
+									<span>People Who...</span>
+								</h2>
+								<a href="javascript:;"  class="zaixian">
+									<img src="../img/gjr-img/wodequanzi/my_17.png" alt="" />
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="content">
+						<div class="gjr_user1 gjr_active" id="gjr_active">
+						
+							<div class="gjr_sright">
+								<h1>Crystal</h1>
+								<div class="gjr_star1"><img src="../img/gjr-img/star2_13.png" alt="" /></div>
+								<h2>
+									<span>The Joy of Living</span>
+									<i class="gjr_face"></i>
+									<span>People Who...</span>
+								</h2>
+								<a href="javascript:;" class="back">
+									<img class="gjr_phone gjr_dong" src="../img/gjr-img/wodequanzi/my_17.png" alt="" />
+								</a>
+								<a href="javascript:;" class="meile">
+									<img src="../img/gjr-img/wodequanzi/my_20.png" alt="" />
+								</a>
+							</div>
+						</div>
+						<div class="gjr_user" id="gjr">
+							<img src="../img/gjr-img/gjr_21.png" alt="" />
+							<div class="gjr_sright">
+								<h1>Crystal</h1>
+								<div class="gjr_star1"><img src="../img/gjr-img/star2_13.png" alt="" /></div>
+								<h2>
+									<span>The Joy of Living</span>
+									<i class="gjr_face"></i>
+									<span>People Who...</span>
+								</h2>
+								<a href="javascript:;"  class="zaixian">
+									<img src="../img/gjr-img/wodequanzi/my_17.png" alt="" />
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

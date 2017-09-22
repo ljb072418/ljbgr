@@ -1,0 +1,770 @@
+body{
+	background: #F6F6F6;
+}
+/*头部开始*/
+
+.zxq-top{
+	width:7.5rem;
+	height:1rem;
+	position: relative;
+	
+}
+.zxq-top img{
+	width:100%;
+	height:1rem;
+	
+}
+.zxq-top a{
+	display: block;
+	width:0.44rem;
+	height:0.44rem;
+	background: #1F2027;
+	border:0.02rem solid #f6f6f6;
+	border-radius: 50%;
+	position:absolute;
+	top:0.28rem;
+	right:0.2rem;
+}
+.zxq-top .zxq-tj .zxq-tj1{
+	width:0.17rem;
+	height:0.03rem;
+	background: #FFFFFF;
+	border-radius: 0.1rem;
+	position:absolute;
+	top:0.2rem;
+	right:0.12rem;
+}
+.zxq-top .zxq-tj .zxq-tj2{
+	width:0.03rem;
+	height:0.17rem;
+	background:#fff;
+	border-radius: 0.1rem;
+	position:absolute;
+	top:0.12rem;
+	right:0.19rem;
+}
+/*头部结束*/
+/*第一块开始*/
+.zxq-bbox2{
+	width:6.65rem;
+	height:2.98rem;
+	/*background:#ffffff;*/
+	box-shadow: 0 0 0.2rem 0.02rem rgba(0,0,0,0.1);
+	margin:0.41rem 0.23rem 0 0.63rem;
+	/*border-radius: 0.1rem;*/
+	position: relative;
+	/*overflow: hidden;*/
+}
+.zxq-box2{
+	width:6.65rem;
+	height:2.98rem;
+	background:#ffffff;
+	box-shadow: 0 0 0.2rem 0.02rem rgba(0,0,0,0.1);
+	/*margin:0.41rem 0.23rem 0 0.63rem;*/
+	border-radius: 0.1rem;
+	position: relative;
+	overflow: hidden;
+}
+ .zxq-bbox2 .zxq-sekuai2{
+	width:120%;
+	height:100%;
+	background: #733D17;
+	position: absolute;
+	left:0;
+	top:0;
+	border-radius: 0.1rem;
+	z-index:1;
+}
+
+.zxq-bbox2 .zxq-sekuai2  .zxq-gb2{
+	width:0.45rem;
+	height:0.45rem;
+	position:absolute;
+	left:5.9rem;
+	top:1.3rem;
+}
+/*.zxq-ysjf13{
+	width:6.65rem;
+	height:2.98rem;
+	background:#fff;
+	position: absolute;
+	left:0;
+	top:0;
+	/*box-shadow: 0 0 0.2rem 0.02rem rgba(0,0,0,0.1);*/
+	/*margin:0.41rem 0.23rem 0 0.63rem;*/
+	/*border-radius: 0.1rem;
+	z-index:2;	
+}*/
+
+.zxq-ysjf{
+	width:6.65rem;
+	height:2.98rem;
+	background:#ffffff;
+	position: absolute;
+	left:0;
+	top:0;
+	/*box-shadow: 0 0 0.2rem 0.02rem rgba(0,0,0,0.1);*/
+	/*margin:0.41rem 0.23rem 0 0.63rem;*/
+	border-radius: 0.1rem;
+	z-index:2;
+	/*box-shadow: 0 0 0.2rem 0.02rem rgba(0,0,0,0.1);
+	margin:0.41rem 0.23rem 0 0.63rem;
+	border-radius: 0.1rem;
+	position: relative;*/
+}
+.zxq-bbox2 .zxq-ysjf1{
+	width:0.78rem;
+	height:0.78rem;
+	position: absolute;
+	left:-0.37rem;
+	top:-0.23rem;	
+	z-index:3;
+}
+.zxq-ysjf h3{
+	font-size: 0.34rem;
+	color:#1e1e1e;
+	font-weight:bold;
+	font-family:'San Francisco Display';
+	position: absolute;
+	right:3.18rem;
+	top:0.23rem;
+}
+.zxq-ysjf .zi{
+	width:4.27rem;
+	height:0.3rem;
+	position: absolute;
+	right:1.6rem;
+	top:0.59rem;
+}
+.zxq-ysjf .zi h4{
+	height:0.3rem;
+	font-size: 0.24rem;
+	color:#1e1e1e;
+	font-family:'苹方';
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.zxq-ysjf .zxq-ysjf2{
+	width:5.6rem;
+	height:0.09rem;
+	position: absolute;
+	left:0.8rem;
+	top:1rem;
+}
+.zxq-ysjf .ysjimg{
+	width:5.54rem;
+	height:1.01rem;
+	position: absolute;
+	top:1.25rem;
+	left:0.8rem;
+}
+.zxq-ysjf .ysjimg .ysjimg1{
+	width:1.28rem;
+	height:1rem;
+	border-radius: 0.1rem;
+}
+.zxq-ysjf .ysjimg .ysjimg2{
+	position: absolute;
+	left:1.41rem;
+}
+.zxq-ysjf .ysjimg .ysjimg3{
+	position: absolute;
+	left:2.83rem;
+}
+.zxq-ysjf .ysjimg .ysjimg4{
+	position: absolute;
+	left:4.25rem;
+}
+.zxq-ysjf .zxq-ysjf3{
+	width:5.6rem;
+	height:0.09rem;
+	position: absolute;
+	left:0.8rem;
+	bottom:0.51rem;
+}
+.zxq-ysjf .bottomimg{
+	width:5.79rem;
+	height:0.24rem;
+	position: absolute;
+	bottom:0.14rem;
+	left:0.8rem;
+}
+.zxq-ysjf .bottomimg  .ysjimg5{
+	width:0.24rem;
+	height:0.24rem;
+	position: absolute;
+}
+.zxq-ysjf .bottomimg  .ysjimg6{
+	width:0.24rem;
+	height:0.24rem;
+	position: absolute;
+	left:1.95rem;
+	bottom:0;
+}
+.zxq-ysjf .bottomimg h4{
+	font-size: 0.24rem;
+	font-family: 'San Francisco Display';
+	color:#808081;
+	position: absolute;
+	left:0.35rem;
+	top:0.001rem;
+}
+.zxq-ysjf .bottomimg h4,.zxq-ysjf .bottomimg h5,.zxq-ysjf .bottomimg h6{
+	font-size: 0.24rem;
+	font-family: 'San Francisco Display';
+	color:#808081;
+	position: absolute;
+	left:0.35rem;
+	top:0.001rem;
+	font-weight: normal;
+}
+.zxq-ysjf .bottomimg h5{
+	position: absolute;
+	left:1.01rem;
+	top:0.001rem;
+}
+.zxq-ysjf .bottomimg h6{
+	position: absolute;
+	left:2.28rem;
+	top:0.001rem;
+}
+/*第一块结束*/
+/*第二块开始*/
+.zxq-bbox1{
+	width:6.65rem;
+	height:3.14rem;
+	/*background:#ffffff;*/
+	box-shadow: 0 0 0.2rem 0.02rem rgba(0,0,0,0.1);
+	margin:0.41rem 0.23rem 0 0.63rem;
+	border-radius: 0.1rem;
+	position: relative;
+	/*overflow: hidden;*/
+}
+.zxq-box1{
+	width:6.65rem;
+	height:3.14rem;
+	/*background:#ffffff;*/
+	box-shadow: 0 0 0.2rem 0.02rem rgba(0,0,0,0.1);
+	/*margin:0.41rem 0.23rem 0 0.63rem;*/
+	border-radius: 0.1rem;
+	position: relative;
+	overflow: hidden;
+}
+.zxq-bbox1 .zxq-sekuai1{
+	width:120%;
+	height:100%;
+	background: #733D17;
+	position: absolute;
+	left:0;
+	top:0;
+	border-radius: 0.1rem;
+	z-index:1;
+}
+
+.zxq-bbox1 .zxq-sekuai1 .zxq-gb1{
+	width:0.45rem;
+	height:0.45rem;
+	position:absolute;
+	left:5.9rem;
+	top:1.3rem;
+}
+.zxq-bbox1 .zxq-ysjf11{
+	width:6.65rem;
+	height:3.14rem;
+	background:#ffffff;
+	box-shadow: 0 0 0.2rem 0.02rem rgba(0,0,0,0.1);
+	/*margin:0.41rem 0.23rem 0 0.63rem;*/
+	border-radius: 0.1rem;
+	position: relative;
+	z-index:2;
+}
+.zxq-bbox1 .zxq-ysjf1{
+	width:0.78rem;
+	height:0.78rem;
+	position: absolute;
+	left:-0.37rem;
+	top:-0.23rem;
+	z-index:3;	
+}
+.zxq-ysjf11 h3{
+	font-size: 0.34rem;
+	color:#1e1e1e;
+	font-weight:bold;
+	font-family:'San Francisco Display';
+	position: absolute;
+	right:4rem;
+	top:0.23rem;
+}
+.zxq-ysjf11 .zi{
+	width:4.27rem;
+	height:0.3rem;
+	position: absolute;
+	right:1.6rem;
+	top:0.59rem;
+}
+.zxq-ysjf11 .zi h4{
+	width:4.27rem;
+	height:0.3rem;
+	font-size: 0.24rem;
+	color:#1e1e1e;
+	font-family:'苹方';
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.zxq-ysjf11 .zxq-ysjf2{
+	width:5.6rem;
+	height:0.09rem;
+	position: absolute;
+	left:0.8rem;
+	top:1rem;
+}
+
+.zxq-ysjf11 .ysjimg .ysjimg1{
+	width:3.52rem;
+	height:1.32rem;
+	border-radius: 0.05rem;
+	position: absolute;
+	top:1.2rem;
+	left:0.8rem;
+}
+.zxq-ysjf11 .zxq-ysjf3{
+	width:5.6rem;
+	height:0.09rem;
+	position: absolute;
+	left:0.8rem;
+	top:2.65rem;
+}
+.zxq-ysjf11 .bottomimg{
+	width:5.79rem;
+	height:0.24rem;
+	position: absolute;
+	bottom:0.12rem;
+	left:0.8rem;
+}
+.zxq-ysjf11 .bottomimg  .ysjimg5{
+	width:0.24rem;
+	height:0.24rem;
+	position: absolute;
+}
+.zxq-ysjf11 .bottomimg  .ysjimg6{
+	width:0.24rem;
+	height:0.24rem;
+	position: absolute;
+	left:1.95rem;
+	bottom:0;
+}
+.zxq-ysjf11 .bottomimg h4{
+	font-size: 0.24rem;
+	font-family: 'San Francisco Display';
+	color:#808081;
+	position: absolute;
+	left:0.35rem;
+	top:0.001rem;
+}
+.zxq-ysjf11 .bottomimg h4,.zxq-ysjf11 .bottomimg h5,.zxq-ysjf11 .bottomimg h6{
+	font-size: 0.24rem;
+	font-family: 'San Francisco Display';
+	color:#808081;
+	position: absolute;
+	left:0.35rem;
+	top:0.001rem;
+	font-weight: normal;
+}
+.zxq-ysjf11 .bottomimg h5{
+	position: absolute;
+	left:1.01rem;
+	top:0.001rem;
+}
+.zxq-ysjf11 .bottomimg h6{
+	position: absolute;
+	left:2.28rem;
+	top:0.001rem;
+}
+/*第二块结束*/
+/*第四块开始*/
+.zxq-bbox3{
+	width:6.65rem;
+	height:3.14rem;
+	/*background:#ffffff;*/
+	box-shadow: 0 0 0.2rem 0.02rem rgba(0,0,0,0.1);
+	margin:0.41rem 0.23rem 1.1rem 0.63rem;
+	border-radius: 0.1rem;
+	position: relative;
+	/*overflow: hidden;*/
+}
+.zxq-box3{
+	width:6.65rem;
+	height:3.14rem;
+	/*background:#ffffff;*/
+	box-shadow: 0 0 0.2rem 0.02rem rgba(0,0,0,0.1);
+	/*margin:0.41rem 0.23rem 0 0.63rem;*/
+	border-radius: 0.1rem;
+	position: relative;
+	overflow: hidden;
+}
+.zxq-bbox3 .zxq-sekuai3{
+	width:120%;
+	height:100%;
+	background: #733D17;
+	position: absolute;
+	left:0;
+	top:0;
+	border-radius: 0.1rem;
+	z-index:1;
+}
+
+.zxq-bbox3 .zxq-sekuai3 .zxq-gb3{
+	width:0.45rem;
+	height:0.45rem;
+	position:absolute;
+	left:5.9rem;
+	top:1.3rem;
+}
+.zxq-bbox3 .zxq-ysjf12{
+	width:6.65rem;
+	height:3.14rem;
+	background:#ffffff;
+	box-shadow: 0 0 0.2rem 0.02rem rgba(0,0,0,0.1);
+	/*margin:0.41rem 0.23rem 0 0.63rem;*/
+	border-radius: 0.1rem;
+	position: relative;
+	z-index:2;
+}
+.zxq-bbox3 .zxq-ysjf1{
+	width:0.78rem;
+	height:0.78rem;
+	position: absolute;
+	left:-0.37rem;
+	top:-0.23rem;
+	z-index:3;	
+}
+/*.zxq-ysjf12 .zxq-ysjf1{
+	width:0.78rem;
+	height:0.78rem;
+	position: absolute;
+	left:-0.37rem;
+	top:-0.23rem;	
+	z-index: 3;
+}*/
+.zxq-ysjf12 h3{
+	font-size: 0.34rem;
+	color:#1e1e1e;
+	font-weight:bold;
+	font-family:'San Francisco Display';
+	position: absolute;
+	right:4rem;
+	top:0.23rem;
+}
+.zxq-ysjf12 .zi{
+	width:4.27rem;
+	height:0.3rem;
+	position: absolute;
+	right:1.6rem;
+	top:0.59rem;
+}
+.zxq-ysjf12 .zi h4{
+	width:4.27rem;
+	height:0.3rem;
+	font-size: 0.24rem;
+	color:#1e1e1e;
+	font-family:'苹方';
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.zxq-ysjf12 .zxq-ysjf2{
+	width:5.6rem;
+	height:0.09rem;
+	position: absolute;
+	left:0.8rem;
+	top:1rem;
+}
+.zxq-ysjf12 .ysjimg .ysjimg1{
+	width:3.52rem;
+	height:1.32rem;
+	border-radius: 0.05rem;
+	position: absolute;
+	top:1.2rem;
+	left:0.8rem;
+}
+.zxq-ysjf12 .zxq-ysjf3{
+	width:5.6rem;
+	height:0.09rem;
+	position: absolute;
+	left:0.8rem;
+	top:2.65rem;
+}
+.zxq-ysjf12 .bottomimg{
+	width:5.79rem;
+	height:0.24rem;
+	position: absolute;
+	bottom:0.12rem;
+	left:0.8rem;
+}
+.zxq-ysjf12 .bottomimg  .ysjimg5{
+	width:0.24rem;
+	height:0.24rem;
+	position: absolute;
+}
+.zxq-ysjf12 .bottomimg  .ysjimg6{
+	width:0.24rem;
+	height:0.24rem;
+	position: absolute;
+	left:1.95rem;
+	bottom:0;
+}
+.zxq-ysjf12 .bottomimg h4{
+	font-size: 0.24rem;
+	font-family: 'San Francisco Display';
+	color:#808081;
+	position: absolute;
+	left:0.35rem;
+	top:0.001rem;
+}
+.zxq-ysjf12 .bottomimg h4,.zxq-ysjf12 .bottomimg h5,.zxq-ysjf12 .bottomimg h6{
+	font-size: 0.24rem;
+	font-family: 'San Francisco Display';
+	color:#808081;
+	position: absolute;
+	left:0.35rem;
+	top:0.001rem;
+	font-weight: normal;
+}
+.zxq-ysjf12 .bottomimg h5{
+	position: absolute;
+	left:1.01rem;
+	top:0.001rem;
+}
+.zxq-ysjf12 .bottomimg h6{
+	position: absolute;
+	left:2.28rem;
+	top:0.001rem;
+}
+/*第四快结束*/
+/*第三块开始*/
+.zxq-bbox{
+	width:6.65rem;
+	height:2.98rem;
+	/*background:#ffffff;*/
+	box-shadow: 0 0 0.2rem 0.02rem rgba(0,0,0,0.1);
+	margin:0.41rem 0.23rem 0 0.63rem;
+	/*border-radius: 0.1rem;*/
+	position: relative;
+	/*overflow: hidden;*/
+}
+.zxq-box{
+	width:6.65rem;
+	height:2.98rem;
+	background:#ffffff;
+	box-shadow: 0 0 0.2rem 0.02rem rgba(0,0,0,0.1);
+	/*margin:0.41rem 0.23rem 0 0.63rem;*/
+	border-radius: 0.1rem;
+	position: relative;
+	overflow: hidden;
+}
+ .zxq-bbox .zxq-sekuai{
+	width:120%;
+	height:100%;
+	background: #733D17;
+	position: absolute;
+	left:0;
+	top:0;
+	border-radius: 0.1rem;
+	z-index:1;
+}
+
+.zxq-bbox .zxq-sekuai  .zxq-gb{
+	width:0.45rem;
+	height:0.45rem;
+	position:absolute;
+	left:5.9rem;
+	top:1.3rem;
+}
+.zxq-ysjf13{
+	width:6.65rem;
+	height:2.98rem;
+	background:#fff;
+	position: absolute;
+	left:0;
+	top:0;
+	/*box-shadow: 0 0 0.2rem 0.02rem rgba(0,0,0,0.1);*/
+	/*margin:0.41rem 0.23rem 0 0.63rem;*/
+	border-radius: 0.1rem;
+	z-index:2;	
+}
+.zxq-bbox .zxq-ysjf1{
+	width:0.78rem;
+	height:0.78rem;
+	position: absolute;
+	left:-0.37rem;
+	top:-0.23rem;	
+	z-index:3;
+}
+
+.zxq-ysjf13 h3{
+	font-size: 0.34rem;
+	color:#1e1e1e;
+	font-weight:bold;
+	font-family:'San Francisco Display';
+	position: absolute;
+	right:3.18rem;
+	top:0.23rem;
+}
+.zxq-ysjf13 .zi{
+	width:4.27rem;
+	height:0.3rem;
+	position: absolute;
+	right:1.6rem;
+	top:0.59rem;
+}
+.zxq-ysjf13 .zi h4{
+	height:0.3rem;
+	font-size: 0.24rem;
+	color:#1e1e1e;
+	font-family:'苹方';
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.zxq-ysjf13 .zxq-ysjf2{
+	width:5.6rem;
+	height:0.09rem;
+	position: absolute;
+	left:0.8rem;
+	top:1rem;
+}
+.zxq-ysjf13 .ysjimg{
+	width:5.54rem;
+	height:1.01rem;
+	position: absolute;
+	top:1.25rem;
+	left:0.8rem;
+}
+.zxq-ysjf13 .ysjimg .ysjimg1{
+	width:1.28rem;
+	height:1rem;
+	border-radius: 0.1rem;
+}
+.zxq-ysjf13 .ysjimg .ysjimg2{
+	position: absolute;
+	left:1.41rem;
+}
+.zxq-ysjf13 .ysjimg .ysjimg3{
+	position: absolute;
+	left:2.83rem;
+}
+.zxq-ysjf13 .ysjimg .ysjimg4{
+	position: absolute;
+	left:4.25rem;
+}
+.zxq-ysjf13 .zxq-ysjf3{
+	width:5.6rem;
+	height:0.09rem;
+	position: absolute;
+	left:0.8rem;
+	bottom:0.51rem;
+}
+.zxq-ysjf13 .bottomimg{
+	width:5.79rem;
+	height:0.24rem;
+	position: absolute;
+	bottom:0.14rem;
+	left:0.8rem;
+}
+.zxq-ysjf13 .bottomimg  .ysjimg5{
+	width:0.24rem;
+	height:0.24rem;
+	position: absolute;
+}
+.zxq-ysjf13 .bottomimg  .ysjimg6{
+	width:0.24rem;
+	height:0.24rem;
+	position: absolute;
+	left:1.95rem;
+	bottom:0;
+}
+.zxq-ysjf13 .bottomimg h4{
+	font-size: 0.24rem;
+	font-family: 'San Francisco Display';
+	color:#808081;
+	position: absolute;
+	left:0.35rem;
+	top:0.001rem;
+}
+.zxq-ysjf13 .bottomimg h4,.zxq-ysjf13 .bottomimg h5,.zxq-ysjf13 .bottomimg h6{
+	font-size: 0.24rem;
+	font-family: 'San Francisco Display';
+	color:#808081;
+	position: absolute;
+	left:0.35rem;
+	top:0.001rem;
+	font-weight: normal;
+}
+.zxq-ysjf13 .bottomimg h5{
+	position: absolute;
+	left:1.01rem;
+	top:0.001rem;
+}
+.zxq-ysjf13 .bottomimg h6{
+	position: absolute;
+	left:2.28rem;
+	top:0.001rem;
+}
+/*第三块结束*/
+/*底部结束*/
+@import url(common.css);
+*{
+	font-size: 0;
+}
+#bottom{
+	width: 100%;
+	height: 1rem;
+	background: #121314;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index:100;
+}
+#bottom>ul{
+	width: 100%;
+	height: 0.7rem;
+	justify-content:space-around;
+  	display: flex;
+}
+#bottom>ul>li{
+	width: 20%;
+	height: 0.54rem;
+	margin-top: 0.24rem;
+	margin-left: 0.34rem;
+	position: relative;
+}
+#bottom>ul>li:first-child>a> img{
+	width:0.60rem;
+	height:0.55rem;
+}
+#bottom>ul>li:nth-child(2)>a> img{
+	width: 0.7rem;
+}
+#bottom>ul>li:nth-child(3)>a> img{
+	width: 0.7rem;
+}
+#bottom>ul>li:nth-child(4) >a>img{
+	width: 0.70rem;
+}
+#bottom>ul>li:nth-child(5)>a> img{
+	width: 0.70rem;
+}
+#bottom>ul>li div{
+	position: absolute;
+	right: 0rem;
+	top: 0;
+}
+#bottom>ul>li div img{
+	width: 0.02rem;
+	height: 0.56rem;
+}
+/*底部结束*/
+
+

@@ -1,0 +1,179 @@
+
+* {
+  font-size: 0.12rem;
+}
+
+body {
+  background: #f4f4f4;
+}
+
+.gjr_header {
+  width: 100%;
+  height: 1rem;
+  background: #202128;
+  position: fixed;
+  left: 0rem;
+  top: 0rem;
+  z-index: 10;
+}
+
+.gjr_back {
+  display: block;
+  width: 0.5rem;
+  height: 0.5rem;
+  margin-top: 0.3rem;
+  margin-left: 0.24rem;
+  color: #fff;
+  text-align: center;
+  line-height: 0.5rem;
+}
+
+.gjr_back > span {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-image: url("../img/gjr-img/gjr_cback_03.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gjr_back img {
+  width: 100%;
+}
+
+.gjr_person {
+  width: 1.8rem;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.gjr_person > p {
+  width: 1.8rem;
+  text-align: center;
+  color: #fff;
+}
+
+.gjr_person > p:nth-child(1) {
+  font-size: 0.3rem;
+  margin-top: 0.3rem;
+}
+
+.gjr_content {
+  width: 7.02rem;
+  margin: 0 auto;
+  height: auto;
+  margin-top: 1.1rem;
+}
+
+.gjr_clothes {
+  width: 3.46rem;
+  height: auto;
+  float: left;
+}
+
+.gjr_clothes li {
+  box-shadow: 0 0 0.05rem #ccc;
+  background: #fff;
+  width: 3.46rem;
+  margin-bottom: 0.1rem;
+  border-radius: 0.05rem;
+  overflow: hidden;
+}
+
+.gjr_clothes li a > img {
+  width: 100%;
+}
+
+.gjr_clothes li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.gjr_clothes li a .gjr_text {
+  width: 100%;
+  padding-left: 0.24rem;
+}
+
+.gjr_clothes li a .gjr_text h1 {
+  font-family: 'San Francisco Display';
+  font-size: 0.32rem;
+  color: #2c353e;
+}
+
+.gjr_clothes li a .gjr_text h2 {
+  font-family: '苹方';
+  font-size: 0.24rem;
+  color: #7d7d80;
+}
+
+.gjr_clothes:nth-child(2) {
+  margin-left: 0.1rem;
+}
+
+.gjr_big {
+  height: 6.29rem;
+}
+
+.gjr_small {
+  height: 4.88rem;
+}
+
+.gjr_love {
+  width: 3rem;
+  height: 0.35rem;
+  margin: 0 auto;
+  margin-top: 0.1rem;
+
+}
+
+.gjr_love div {
+  width: 33.33333333333333%;
+  height: 100%;
+  position: relative;
+  float: left;
+}
+
+.gjr_love div img.gjr_special1 {
+  width: 0.36rem;
+  float: left;
+  display: block;
+  margin-top: 0.05rem;
+  margin-left: -0.05rem;
+  
+}
+.gjr_love div:nth-child(2)>img{
+	 margin-left: 0.05rem;
+}
+.gjr_love div .gjr_rmb1 {
+  display: block;
+  height: 100%;
+  line-height: 0.35rem;
+  font-family: 'San Francisco Display';
+  font-size: 0.24rem;
+  color: #808081;
+  float: left;
+}
+
+.gjr_rmb {
+  display: block;
+  height: 100%;
+  line-height: 0.35rem;
+  font-family: 'San Francisco Display';
+  font-size: 0.32rem;
+  color: #8f5830;
+  /*margin-left: 0.3rem;*/
+  float: right;
+}
+
+img.gjr_special {
+  position: absolute;
+  width: 0.5rem;
+  right: 0.02rem;
+  top: -0.2rem;
+}

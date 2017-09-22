@@ -1,0 +1,845 @@
+@charset "UTF-8";
+body {
+  background: #F4F4F4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.hidden {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+.gjr_alert {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  display: none;
+}
+
+.gjr_alert .gjr_top {
+  width: 7.02rem;
+  height: 1.2rem;
+  margin: 0 auto;
+  margin-bottom: 0.2rem;
+}
+
+.gjr_alert .gjr_top .left {
+  width: 80%;
+  height: 100%;
+  float: left;
+}
+
+.gjr_alert .gjr_top .left h6 {
+  color: #fff;
+  font-size: 0.3rem;
+  font-family: '苹方';
+  margin-top: 0.7rem;
+}
+
+.gjr_alert .gjr_top .left span {
+  display: block;
+  float: left;
+}
+
+.gjr_alert .gjr_top .left span:nth-child(2) {
+  width: 0.5rem;
+  height: 0.05rem;
+  border-radius: 0.5rem;
+  background: #CCCACB;
+}
+
+.gjr_alert .gjr_top .left span:nth-child(3) {
+  width: 0.2rem;
+  height: 0.05rem;
+  border-radius: 0.5rem;
+  background: #CCCACB;
+  margin-left: 0.1rem;
+}
+
+.gjr_alert .gjr_top .right {
+  width: 20%;
+  height: 100%;
+  float: right;
+}
+
+.gjr_alert .gjr_top .right span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 1.2rem;
+  color: #999999;
+  transform: rotateZ(45deg);
+  font-size: 0.7rem;
+}
+
+.gjr_tab {
+  width: 7.02rem;
+  height: auto;
+  margin: 0 auto;
+}
+
+.gjr_tab li {
+  width: 100%;
+  height: 1.06rem;
+  border-bottom: 1px solid #9E9E9E;
+}
+
+.gjr_tab li .gjr_left {
+  width: 80%;
+  height: 100%;
+  float: left;
+}
+
+.gjr_tab li .gjr_left h3.gjr {
+  color: #FDFDFD;
+  font-size: 0.4rem;
+  font-family: 'San Francisco Display';
+}
+
+.gjr_tab li .gjr_left p.gjr {
+  color: #FDFDFD;
+  font-size: 0.26rem;
+  font-family: '苹方';
+}
+
+.gjr_tab li .gjr_right {
+  width: 20%;
+  height: 100%;
+  float: right;
+}
+
+.gjr_tab li .gjr_right span.gjr {
+  font-size: 0.3rem;
+  font-family: 'San Francisco Display';
+  color: #cecece;
+  float: right;
+  margin-top: 0.2rem;
+}
+
+.gjr_tab .gjr_s {
+  border: none;
+}
+
+h3.gjr_active {
+  color: #CC943A;
+  font-size: 0.4rem;
+  font-family: 'San Francisco Display';
+}
+
+p.gjr_active {
+  color: #CC943A;
+  font-size: 0.26rem;
+  font-family: '苹方';
+}
+
+span.gjr_active {
+  font-size: 0.3rem;
+  font-family: 'San Francisco Display';
+  color: #CC943A;
+  float: right;
+  margin-top: 0.2rem;
+}
+
+.gjr_ge {
+  width: 7.02rem;
+  height: 0.3rem;
+  margin: 0 auto;
+}
+
+.gjr_ge .gjr_h2 {
+  width: 16.666666666666%;
+  height: 100%;
+  float: left;
+  line-height: 0.3rem;
+  font-size: 0.24rem;
+  font-weight: normal;
+}
+
+.gjr_ge .gjr_hs {
+  text-align: right;
+}
+
+.gjr_h2s {
+  color: #D09235;
+}
+
+.gjr_big {
+  width: 7.02rem;
+  height: 0.4rem;
+  margin: 0 auto;
+  position: relative;
+}
+
+.gjr_jia {
+  width: 7.02rem;
+  height: 0.03rem;
+  background: #7F7E7C;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.gjr_jia .gjr_zou {
+  width: 20%;
+  height: 100%;
+  background: #D09235;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.gjr_jia .circle1 {
+  width: 0.07rem;
+  height: 0.07rem;
+  border-radius: 50%;
+  background: #D09235;
+  margin-left: -0.05rem;
+  position: absolute;
+  left: 0;
+  top: -0.02rem;
+}
+
+.gjr_jia .circle2 {
+  width: 0.07rem;
+  height: 0.07rem;
+  border-radius: 50%;
+  background: #D09235;
+  position: absolute;
+  left: 20%;
+  margin-left: -0.05rem;
+  top: -0.02rem;
+}
+
+.gjr_finish {
+  width: 7.5rem;
+  height: 1.26rem;
+  margin-top: 0.3rem;
+}
+
+.gjr_finish a {
+  display: block;
+  width: 100%;
+  height: 1.26rem;
+}
+
+.gjr_finish a img {
+  display: block;
+  width: 7.5rem;
+  height: 1.26rem;
+}
+
+.gjr_ghead {
+  width: 7.02rem;
+  height: 2.07rem;
+  margin: 0 auto;
+  background-image: url("../img/gjr-img/gjr_gbanner_03.png");
+  background-size: cover;
+  overflow: hidden;
+}
+
+.gjr_back {
+  width: 0.42rem;
+  height: 0.42rem;
+  margin-top: 0.2rem;
+}
+
+.gjr_back a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.gjr_back a img {
+  display: block;
+  width: 0.42rem;
+}
+
+.gjr_shai {
+  width: 1.19rem;
+  height: 0.65rem;
+  margin-top: 0.3rem;
+  float: right;
+}
+
+.gjr_shai a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.gjr_shai a img {
+  display: block;
+  width: 1.19rem;
+}
+
+.gjr_shi {
+  width: 7.02rem;
+  height: 6.70rem;
+  margin: 0 auto;
+}
+
+.gjr_six {
+  width: 100%;
+  height: 6.70rem;
+}
+
+.gjr_six .gjr_r {
+  margin-right: 0.15rem;
+}
+
+.gjr_six li {
+  width: 2.23rem;
+  height: 3.09rem;
+  border-radius: 0.1rem;
+  background: #FAFAFA;
+  float: left;
+  position: relative;
+  margin-bottom: 0.15rem;
+  box-shadow: 0 0 0.01rem 0.03rem #ccc;
+}
+
+.gjr_six li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.gjr_six li a img {
+  display: block;
+  width: 100%;
+}
+
+.gjr_six li a .gjr_gline {
+  width: 100%;
+  height: 0.05rem;
+  background: #B29A6C;
+  position: absolute;
+  left: 0;
+  top: 1.92rem;
+}
+
+.gjr_six li a h1 {
+  font-size: 0.26rem;
+  font-family: '苹方';
+  color: #383838;
+  margin-left: 0.15rem;
+  margin-top: 0.07rem;
+}
+
+.gjr_six li a span {
+  display: block;
+  font-family: 'San Francisco dispaly';
+}
+
+.gjr_six li a span:nth-child(4) {
+  font-size: 0.24rem;
+  margin-left: 0.15rem;
+  font-weight: bold;
+  color: #9F9F9F;
+  float: left;
+}
+
+.gjr_six li a span:nth-child(5) {
+  font-size: 0.24rem;
+  color: #9C9C9C;
+  float: left;
+}
+
+.gjr_text {
+  position: absolute;
+  left: 1.1rem;
+  bottom: 0.05rem;
+  font-size: 0.2rem;
+  color: #414141;
+}
+
+.gjr_gstar {
+  width: 0.46rem;
+  height: 0.46rem;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 0.01rem 0.01rem #ccc;
+  position: absolute;
+  right: 0.2rem;
+  top: 1.69rem;
+}
+
+.gjr_gstar img {
+  display: block;
+  width: 100%;
+}
+
+.gjr_rmb {
+  float: right;
+  margin-top: 1.4rem;
+  margin-right: 0.03rem;
+}
+
+.imgten {
+  width: 100%;
+}
+
+/*优品推荐开始*/
+.zxq-tj {
+  width: 100%;
+  height: auto;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.zxq-tj .zxq-tj1 {
+  width: 7.02rem;
+  height: 2rem;
+  border-radius: 0.1rem;
+  margin-left: 0.24rem;
+  position: relative;
+  border: 0.02rem solid #ececec;
+  background: #ffffff;
+}
+
+.zxq-tj .zxq-tj1 .zxq-tjimg1 {
+  width: 1.01rem;
+  height: 1.95rem;
+  position: absolute;
+  box-sizing: border-box;
+}
+
+.zxq-tj .zxq-tj1 .zxq-tjright {
+  width: 5.97rem;
+  height: 100%;
+  position: absolute;
+  right: 0;
+}
+
+.zxq-tj .zxq-tj1 .zxq-tjright h4 {
+  font-size: 0.4016rem;
+  font-weight: bold;
+  color: #484848;
+  font-family: 'San Francisco Display';
+  position: absolute;
+  right: 3.4rem;
+  top: 0.2rem;
+}
+
+.zxq-tj .zxq-tj1 .zxq-tjright h6 {
+  font-size: 0.24rem;
+  font-weight: bold;
+  color: #34343c;
+  font-family: '苹方';
+  position: absolute;
+  right: 4.27rem;
+  top: 0.7rem;
+}
+
+.zxq-tj .zxq-tj1 .zxq-tjright h5, .zxq-tj .zxq-tj1 .zxq-tjright h3 {
+  width: 0.65rem;
+  height: 0.29rem;
+  font-size: 0.2rem;
+  font-weight: bold;
+  font-family: '苹方';
+  color: #ab7e4a;
+  text-align: center;
+  line-height: 0.29rem;
+  position: absolute;
+  top: 0.7rem;
+  border: 0.01rem solid #D5BA93;
+  border-radius: 0.1rem;
+}
+
+.zxq-tj .zxq-tj1 .zxq-tjright h5 {
+  position: absolute;
+  right: 3.43rem;
+  top: 0.7rem;
+}
+
+.zxq-tj .zxq-tj1 .zxq-tjright h3 {
+  position: absolute;
+  right: 2.66rem;
+  top: 0.7rem;
+}
+
+.zxq-tj .zxq-tj1 .zxq-tjright .zxq-tjhd {
+  width: 5.45rem;
+  height: 0.29rem;
+  position: absolute;
+  right: 0.26rem;
+  top: 1.01rem;
+}
+
+.zxq-tj .zxq-tj1 .zxq-tjright .zxq-ggimg {
+  width: 0.52rem;
+  height: 0.52rem;
+  border: 0.02rem solid #e4c5a1;
+  border-radius: 0.1rem;
+  padding: 0.05rem;
+  position: absolute;
+  left: 0.28rem;
+  bottom: 0.16rem;
+  box-sizing: border-box;
+}
+
+.zxq-tj .zxq-tj1 .zxq-tjright .zxq-ggimg2 {
+  position: absolute;
+  left: 0.91rem;
+  bottom: 0.16rem;
+}
+
+.zxq-tj .zxq-tj1 .zxq-tjright .zxq-ggimg3 {
+  position: absolute;
+  left: 1.54rem;
+  bottom: 0.16rem;
+}
+
+.zxq-tj .zxq-tj1 .zxq-tjright .zxq-ggimg4 {
+  position: absolute;
+  left: 2.17rem;
+  bottom: 0.16rem;
+}
+
+.zxq-tj .zxq-tj1 .zxq-tjright .zxq-ggimg5 {
+  position: absolute;
+  left: 2.8rem;
+  bottom: 0.16rem;
+}
+
+.zxq-tj .zxq-tj1 .zxq-tjright h1 {
+  font-size: 0.5rem;
+  color: #7A4520;
+  font-family: 'helvetica';
+  position: absolute;
+  right: 0.9rem;
+  bottom: 0.10rem;
+}
+
+.zxq-tj .zxq-tj1 .zxq-tjright p {
+  display: inline-block;
+  width: 0.6rem;
+  height: 0.2rem;
+  line-height: 0.2rem;
+  font-size: 0.18rem;
+  color: #FDFDFD;
+  border: 0.01rem solid #6f4e1f;
+  border-radius: 0.1rem;
+  text-align: center;
+  position: absolute;
+  right: 0.23rem;
+  bottom: 0.21rem;
+  background: #8E5730;
+}
+
+.zxq-tj .zxq-tj2 {
+  width: 7.02rem;
+  height: 2rem;
+  border-radius: 0.1rem;
+  margin-left: 0.24rem;
+  margin-top: 0.2rem;
+  position: relative;
+  border: 0.02rem solid #ececec;
+  background: #ffffff;
+}
+
+.zxq-tj .zxq-tj2 .zxq-tjimg1 {
+  width: 1.01rem;
+  height: 1.95rem;
+  position: absolute;
+  box-sizing: border-box;
+}
+
+.zxq-tj .zxq-tj2 .zxq-tjright {
+  width: 5.97rem;
+  height: 100%;
+  position: absolute;
+  right: 0;
+}
+
+.zxq-tj .zxq-tj2 .zxq-tjright h4 {
+  font-size: 0.4016rem;
+  font-weight: bold;
+  color: #484848;
+  font-family: 'San Francisco Display';
+  position: absolute;
+  right: 2.44rem;
+  top: 0.2rem;
+}
+
+.zxq-tj .zxq-tj2 .zxq-tjright h6 {
+  font-size: 0.24rem;
+  font-weight: bold;
+  color: #34343c;
+  font-family: '苹方';
+  position: absolute;
+  right: 4.27rem;
+  top: 0.7rem;
+}
+
+.zxq-tj .zxq-tj2 .zxq-tjright h5, .zxq-tj .zxq-tj2 .zxq-tjright h3, .zxq-tj .zxq-tj2 .zxq-tjright h2 {
+  width: 0.65rem;
+  height: 0.29rem;
+  font-size: 0.2rem;
+  font-weight: bold;
+  font-family: '苹方';
+  color: #ab7e4a;
+  text-align: center;
+  line-height: 0.29rem;
+  position: absolute;
+  top: 0.75rem;
+  border: 0.01rem solid #D5BA93;
+  border-radius: 0.1rem;
+}
+
+.zxq-tj .zxq-tj2 .zxq-tjright h5 {
+  position: absolute;
+  right: 3.43rem;
+  top: 0.7rem;
+}
+
+.zxq-tj .zxq-tj2 .zxq-tjright h3 {
+  position: absolute;
+  right: 2.66rem;
+  top: 0.7rem;
+}
+
+.zxq-tj .zxq-tj2 .zxq-tjright h2 {
+  position: absolute;
+  right: 1.88rem;
+  top: 0.7rem;
+}
+
+.zxq-tj .zxq-tj2 .zxq-tjright .zxq-tjhd {
+  width: 5.45rem;
+  height: 0.29rem;
+  position: absolute;
+  right: 0.26rem;
+  top: 1.01rem;
+}
+
+.zxq-tj .zxq-tj2 .zxq-tjright .zxq-ggimg {
+  width: 0.52rem;
+  height: 0.52rem;
+  border: 0.02rem solid #e4c5a1;
+  border-radius: 0.1rem;
+  position: absolute;
+  left: 0.28rem;
+  bottom: 0.16rem;
+  padding: 0.05rem;
+  box-sizing: border-box;
+}
+
+.zxq-tj .zxq-tj2 .zxq-tjright .zxq-ggimg2 {
+  position: absolute;
+  left: 0.91rem;
+  bottom: 0.16rem;
+}
+
+.zxq-tj .zxq-tj2 .zxq-tjright .zxq-ggimg3 {
+  position: absolute;
+  left: 1.54rem;
+  bottom: 0.16rem;
+}
+
+.zxq-tj .zxq-tj2 .zxq-tjright .zxq-ggimg4 {
+  position: absolute;
+  left: 2.17rem;
+  bottom: 0.16rem;
+}
+
+.zxq-tj .zxq-tj2 .zxq-tjright .zxq-ggimg5 {
+  position: absolute;
+  left: 2.8rem;
+  bottom: 0.16rem;
+}
+
+.zxq-tj .zxq-tj2 .zxq-tjright h1 {
+  font-size: 0.5rem;
+  color: #7A4520;
+  font-family: 'helvetica';
+  position: absolute;
+  right: 0.9rem;
+  bottom: 0.10rem;
+}
+
+.zxq-tj .zxq-tj2 .zxq-tjright p {
+  display: inline-block;
+  width: 0.6rem;
+  height: 0.2rem;
+  line-height: 0.2rem;
+  font-size: 0.18rem;
+  color: #FDFDFD;
+  border: 0.01rem solid #6f4e1f;
+  border-radius: 0.1rem;
+  text-align: center;
+  position: absolute;
+  right: 0.23rem;
+  bottom: 0.21rem;
+  background: #8E5730;
+}
+
+.zxq-tj .zxq-tj3 {
+  width: 7.02rem;
+  height: 2rem;
+  border-radius: 0.1rem;
+  position: absolute;
+  top: 6.61rem;
+  left: 0.24rem;
+  border: 0.02rem solid #ececec;
+  background: #ffffff;
+  margin-bottom: 1.28rem;
+}
+
+.zxq-tj .zxq-tj3 .zxq-tjimg1 {
+  width: 1.01rem;
+  height: 1.95rem;
+  position: absolute;
+  box-sizing: border-box;
+}
+
+.zxq-tj .zxq-tj3 .zxq-tjright {
+  width: 5.97rem;
+  height: 100%;
+  position: absolute;
+  right: 0;
+}
+
+.zxq-tj .zxq-tj3 .zxq-tjright h4 {
+  font-size: 0.4016rem;
+  font-weight: bold;
+  color: #484848;
+  font-family: 'San Francisco Display';
+  position: absolute;
+  right: 3.4rem;
+  top: 0.2rem;
+}
+
+.zxq-tj .zxq-tj3 .zxq-tjright h6 {
+  font-size: 0.24rem;
+  font-weight: bold;
+  color: #34343c;
+  font-family: '苹方';
+  position: absolute;
+  right: 4.27rem;
+  top: 0.7rem;
+}
+
+.zxq-tj .zxq-tj3 .zxq-tjright h5, .zxq-tj .zxq-tj3 .zxq-tjright h3, .zxq-tj .zxq-tj3 .zxq-tjright h2 {
+  width: 0.65rem;
+  height: 0.29rem;
+  font-size: 0.2rem;
+  font-weight: bold;
+  font-family: '苹方';
+  color: #ab7e4a;
+  text-align: center;
+  line-height: 0.29rem;
+  position: absolute;
+  top: 0.75rem;
+  border: 0.01rem solid #D5BA93;
+  border-radius: 0.1rem;
+}
+
+.zxq-tj .zxq-tj3 .zxq-tjright h5 {
+  position: absolute;
+  right: 3.43rem;
+  top: 0.7rem;
+}
+
+.zxq-tj .zxq-tj3 .zxq-tjright h3 {
+  position: absolute;
+  right: 2.66rem;
+  top: 0.7rem;
+}
+
+.zxq-tj .zxq-tj3 .zxq-tjright h2 {
+  position: absolute;
+  right: 1.88rem;
+  top: 0.7rem;
+}
+
+.zxq-tj .zxq-tj3 .zxq-tjright .zxq-tjhd {
+  width: 5.45rem;
+  height: 0.29rem;
+  position: absolute;
+  right: 0.26rem;
+  top: 1.01rem;
+}
+
+.zxq-tj .zxq-tj3 .zxq-tjright .zxq-ggimg {
+  width: 0.52rem;
+  height: 0.52rem;
+  border: 0.02rem solid #e4c5a1;
+  border-radius: 0.1rem;
+  position: absolute;
+  left: 0.28rem;
+  bottom: 0.16rem;
+  padding: 0.05rem;
+  box-sizing: border-box;
+}
+
+.zxq-tj .zxq-tj3 .zxq-tjright .zxq-ggimg2 {
+  position: absolute;
+  left: 0.91rem;
+  bottom: 0.16rem;
+}
+
+.zxq-tj .zxq-tj3 .zxq-tjright .zxq-ggimg3 {
+  position: absolute;
+  left: 1.54rem;
+  bottom: 0.16rem;
+}
+
+.zxq-tj .zxq-tj3 .zxq-tjright .zxq-ggimg4 {
+  position: absolute;
+  left: 2.17rem;
+  bottom: 0.16rem;
+}
+
+.zxq-tj .zxq-tj3 .zxq-tjright .zxq-ggimg5 {
+  position: absolute;
+  left: 2.8rem;
+  bottom: 0.16rem;
+}
+
+.zxq-tj .zxq-tj3 .zxq-tjright h1 {
+  font-size: 0.5rem;
+  color: #7A4520;
+  font-family: 'helvetica';
+  position: absolute;
+  right: 0.9rem;
+  bottom: 0.10rem;
+}
+
+.zxq-tj .zxq-tj3 .zxq-tjright p {
+  display: inline-block;
+  width: 0.6rem;
+  height: 0.2rem;
+  line-height: 0.2rem;
+  font-size: 0.18rem;
+  color: #FDFDFD;
+  border: 0.01rem solid #6f4e1f;
+  border-radius: 0.1rem;
+  text-align: center;
+  position: absolute;
+  right: 0.23rem;
+  bottom: 0.21rem;
+  background: #8E5730;
+}
+
+/*优品推荐结束*/

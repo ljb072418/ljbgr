@@ -1,0 +1,201 @@
+body{
+	background: #f4f4f4;
+	padding-bottom: 0.24rem;
+	box-sizing: border-box;
+}
+/* 头部开始 */
+.header{
+	width: 100%;
+	height: 2rem;
+	position: fixed;
+	z-index: 2;
+	overflow: hidden;
+	background: #f4f4f4;
+	box-shadow: 0 0.02rem 0.16rem #c2c2c2;
+}
+#header{
+	width: 100%;
+	height: 2rem;
+}
+.header .top{
+	width: 100%;
+	height: 0.66rem;
+	padding-left: 0.24rem;
+	padding-right: 0.24rem;
+	padding-top: 0.17rem;
+	box-sizing: border-box;
+}
+.header .bottom{
+	width: 4.06rem;
+	height: 1.34rem;
+	background: url('../img/gjr_made/dingzh_bt.png')no-repeat;
+	background-size: 4.06rem;
+	margin-left: 0.24rem;
+	margin-top: 0.1rem;
+}
+.header .fanhui{
+	width: 0.4rem;
+	height: 0.4rem;
+	background: url('../img/gjr_made/xiangqing_fanhui.png')no-repeat;
+	background-size: 0.4rem;
+	display: block;
+	float: left;
+}
+/* 头部结束 */
+/* 推荐开始 */
+.tuijian1{
+	width: 100%;
+	height: 3.82rem;
+	position: relative;
+}
+.tuijian1 .shangtu{
+	width: 7.5rem;
+	height: 3.82rem;
+}
+.tuijian1 .zhezhao{
+	width: 7.5rem;
+	height: 1.1rem;
+	background: rgba(0, 72, 96, 0.5);
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding-left: 0.28rem;
+	padding-top: 0.22rem;
+	padding-right: 0.28rem;
+	box-sizing: border-box;
+}
+.tuijian1 .s{
+	background: rgba(104, 53, 23, 0.5);
+}
+.tuijian1 .zhezhao .zi{
+	width: 3.44rem;
+	height: 0.74rem;
+	float: left;
+}
+.tuijian1 .zi .bt{
+	width: 100%;
+	height: 0.32rem;
+	font-size: 0.26rem;
+	font-family: "苹方";
+	font-weight: 700;
+	color: #efefef;
+}
+.tuijian1 .zi .xian{
+	width: 100%;
+	height: 0.12rem;
+	background: url('../img/gjr_made/dingzhi_tu_xian.png')no-repeat;
+	background-size: 3.45rem;
+}
+.tuijian1 .zi .jiaobiao{
+	width: 100%;
+	height: 0.32rem;
+	background: url('../img/gjr_made/dingzhi_tu_jiaobiao.png')no-repeat;
+	background-size: 3.45rem;
+}
+.tuijian1 .zhezhao .tu{
+	width: 2.88rem;
+	height: 0.7rem;
+	background: url('../img/gjr_made/dingzhi_tu_touxiang.png')no-repeat;
+	background-size: 2.86rem;
+	float: right;
+}
+/* 推荐结束 */
+/* 实物定制开始 */
+.shiwubiaoti{
+	width: 100%;
+	height: 1.42rem;
+	background: url('../img/gjr_made/shiwudingzhi_bt.png')no-repeat;
+	background-size: 7.5rem;
+}
+.shiwu{
+	display: block;
+	width: 100%;
+	height: 3.66rem;
+	background: url('../img/gjr_made/shiwutuijian.png')no-repeat;
+	background-size: 7.5rem;
+}
+.xunibiaoti{
+	width: 100%;
+	height: 1.42rem;
+	background: url('../img/gjr_made/xunidingzhi_bt.png')no-repeat;
+	background-size: 7.5rem;
+}
+.xuni{
+	width: 7.02rem;
+	height: 2.86rem;
+	margin-top: 0.16rem;
+	margin: 0 auto;
+	position: relative;
+}
+.xuni .xiatu{
+	width: 6.7rem;
+	height: 1.76rem;
+	background: url('../img/gjr_made/xiatu1.png')no-repeat;
+	background-size: 6.7rem; 
+	margin: 0 auto;
+	position: absolute;
+	left: 0.16rem;
+	bottom: 0;
+	border-radius: 0.06rem;
+}
+.xuni .s{
+	background: url('../img/gjr_made/xiatu2.png')no-repeat;
+	background-size: 6.7rem; 
+}
+.xuni .shang{
+	width: 7.02rem;
+	height: 1.3rem;
+	background: #fff;
+	box-shadow: 0 0.01rem 0.13rem rgba(185, 185, 185, 0.5);
+	border-radius: 0.06rem;
+	margin: 0 auto;
+	position: absolute;
+	left: 0rem;
+	top: 0;
+	z-index: 1;
+	padding: 0.12rem;
+	box-sizing: border-box;
+}
+.xuni .shang .zuo{
+	width: 0.98rem;
+	height: 0.98rem;
+	background: url('../img/gjr_made/biaozhi1.png')no-repeat;
+	background-size: 0.98rem;
+	float: left;
+}
+.xuni .shang .s{
+	background: url('../img/gjr_made/biaozhi2.png')no-repeat;
+	background-size: 0.98rem;
+}
+.xuni .shang .you{
+	width: 5.8rem;
+	height: 0.98rem;
+	float: left;
+	padding: 0.14rem;
+	box-sizing: border-box;
+}
+.xuni .you .english{
+	width: 100%;
+	height: 0.24rem;
+	margin-bottom: 0.08rem;
+	font-size: 0.26rem;
+	font-family: San Francisco display;
+	font-weight: 700;
+	color: #8c8c8c;
+}
+.xuni .you .chinese{
+	width: 100%;
+	height: 0.18rem;
+	margin-bottom: 0.08rem;
+	font-size: 0.2rem;
+	font-family: "苹方";
+	font-weight: 400;
+	color: #8c8c8c;
+}
+.xuni .you .xing{
+	width: 100%;
+	height: 0.18rem;
+	background: url('../img/gjr_made/xiangqing_xingxing.png')no-repeat;
+	background-size: 0.84rem;
+	margin-top: 0.14rem;
+}

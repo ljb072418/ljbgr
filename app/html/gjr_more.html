@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+
+		<meta name="x5-orientation" content="portrait | landscape" />
+		<!---->
+		<meta name="screen-orientation" content="portrait">
+		<!--全屏问题-->
+		<meta name="x5-fullscreen" content="true" />
+		<meta name="full-screen" content="yes">
+		<!--禁止打电话、登录邮箱-->
+		<meta name="format-detection" content="telephone=no, email=no" />
+	</head>
+	<link rel="stylesheet" href="../common/css/common.css" />
+	<link rel="stylesheet" href="../css/more.css" />
+	<script src='../common/js/common.js'></script>
+	<script type="text/javascript" src="../common/js/iscroll.js"></script>
+	<script src='../common/js/jquery.min.js'></script>
+	<script src='../js/gjr_more.js'></script>
+	<script type="text/javascript">
+        var myScroll;
+        function loaded () {
+            myScroll = new IScroll('#wrapper', {
+                scrollbars: true,
+                mouseWheel: true,
+                interactiveScrollbars: true,
+                shrinkScrollbars: 'scale',
+                fadeScrollbars: true,
+                click:true
+            });
+        }
+	</script>
+	<style>
+		#wrapper {
+			position: absolute;
+			z-index: 1;
+			top: 0px;
+			bottom: 0px;
+			left: 0;
+			width: 100%;
+			overflow: hidden;
+		}
+		#scroller {
+			position: absolute;
+			z-index: 1;
+			-webkit-tap-highlight-color: rgba(0,0,0,0);
+			width: 100%;
+		}
+	</style>
+	<body onload="loaded()">
+		<div class="gjr_header">
+			<a href="gjr_friend.html"  class="gjr_back">
+				<span></span>
+			</a>
+			<div class="gjr_person">
+				<p>更多</p>
+				<p>JACKSON</p>
+			</div>
+		</div>
+		<div id="wrapper">
+			<div class="mo"  id='scroller'>
+				
+				<div class="gjr_more">
+					<div class="section">
+						<div class="gjr_img">
+							<img src="../img/gjr-img/more/more_03.png" alt="" />
+						</div>
+						<div class="gjr_text">
+							<h1>更改备注名称</h1>
+							<p>点击更改好友备注便于识别</p>
+						</div>
+						<div class="gjr_icon">
+							<span class="xia"></span>
+						</div>
+						<span class='gjr_line'></span>
+					</div>
+					<div class="section">
+						<div class="gjr_img">
+							<img src="../img/gjr-img/more/more_06.png" alt="" />
+						</div>
+						<div class="gjr_text">
+							<h1>加入黑名单</h1>
+							<p>不让该好友看到你的动态</p>
+						</div>
+						<div class="gjr_icon">
+							<span class="gjr_tab"></span>
+						</div>
+						<span class='gjr_line'></span>
+					</div>
+					<div class="section">
+						<div class="gjr_img">
+							<img src="../img/gjr-img/more/more_09.png" alt="" />
+						</div>
+						<div class="gjr_text">
+							<h1>更改备注名称</h1>
+							<p>点击更改好友备注便于识别</p>
+						</div>
+						<div class="gjr_icon">
+							<span class="gjr_tab gjr_tabone"></span>
+						</div>
+						<span class='gjr_line'></span>
+					</div>
+					<div class="section">
+						<div class="gjr_img">
+							<img src="../img/gjr-img/more/more_13.png" alt="" />
+						</div>
+						<div class="gjr_text">
+							<h1>取消关注</h1>
+							<p>失去好友关系</p>
+						</div>
+						<div class="gjr_icon">
+							<!--<img class="gjr_tab" src="../img/gjr-img/more/button2.png" alt="" />-->
+						</div>
+						<span class='gjr_line'></span>
+					</div>
+					<div class="section">
+						<div class="gjr_img">
+							<img src="../img/gjr-img/more/more_17.png" alt="" />
+						</div>
+						<div class="gjr_text">
+							<h1>投诉</h1>
+							<p>提交聊天信息进行投诉</p>
+						</div>
+						<div class="gjr_icon">
+							<!--<img class="gjr_tab" src="../img/gjr-img/more/button2.png" alt="" />-->
+						</div>
+						<span class='gjr_line'></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

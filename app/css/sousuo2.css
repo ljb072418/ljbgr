@@ -1,0 +1,202 @@
+.hidden{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.gjr_alert{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.8);
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1000;
+	display: none;
+}
+.gjr_alert a{
+	width: 5.08rem;
+	height: 6.83rem;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+.gjr_alert a img{
+	width: 100%;
+}
+.yzf-body{
+	background:#eeeeee;
+}
+.yzf-nav{
+	width:100%;
+	height:0.25rem;
+	background:#000;
+}
+.yzf-banner{
+	width:100%;
+	height:2.52rem;
+	background-image:url(../img/yzf-img/ff_03.gif);
+	background-size:100% 2rem;
+	position:relative;
+	border-bottom:1px solid #E3A03B;
+	/*box-sizing:border-box;*/
+}
+.yzf-back{
+	display: block;
+}
+.yzf-back img{
+	position:absolute;
+	top:0.15rem;
+	left:0.2rem;
+	width:0.4rem;
+	height:0.4rem;
+}
+.yzf-font1{
+	width:6rem;
+	border-bottom: 1px dotted #B0B0B0;
+	font-size:0.3rem;
+	color:#fdfdfd;
+	font-weight:20;
+	position:absolute;
+	top:0.5rem;
+	left:0.2rem;
+}
+.yzf-font1 span:first-child{
+	display:block;
+	float:left;
+	margin-right:0.1rem;
+	font-family: "[MyriadPro]";
+	font-size:0.58rem;
+}
+.yzf-font1 span:nth-child(2){
+	display:block;
+	float:left;
+	margin-right:0.1rem;
+	font-family: "[MyriadPro]";
+	font-size:0.58rem;
+}
+.yzf-font1 span:nth-child(3){
+	display:block;
+	float:left;
+	margin-left:-0.19rem;
+	font-family: "helvetical";
+	font-size:0.58rem;
+}
+.yzf-font2{
+	width:3rem;
+	font-size:0.24rem;
+	color:#B39A62;
+	font-weight:bold;
+	position:absolute;
+	top:1.7rem;
+	left:0.2rem;
+	font-family: "sans-serif";
+}
+.yzf-font2 span{
+	display:block;
+	float:left;
+	margin-right:0.2rem;
+}
+.yzf-font3{
+	width:3rem;
+	font-size:0.3rem;
+	color:#fff;
+	font-weight:bold;
+	position:absolute;
+	top:1.3rem;
+	left:0.2rem;
+	font-family: "萍方";
+}
+.yzf-font3 span{
+	display:block;
+	float:left;
+	margin-right:0.2rem;
+}
+#yzf-sousuo{
+	width:95%;
+	height:0.75rem;
+	position:absolute;
+	bottom:-0.385rem;
+	left:2.5%;
+	border-radius:0.15rem;
+	font-size:0.24rem;
+	color:#ccc;
+	padding-left:1rem;
+	line-height:0.75rem;
+}
+.yzf-form img:first-child{
+	width:0.5rem;
+	display: block;
+	position: absolute;
+	top:2.25rem;
+	left:8%;
+	z-index: 20;
+}
+.yzf-form img:nth-child(2){
+	width: 0.7rem;
+	display: block;
+	position: absolute;
+	top:2.18rem;
+	right:10%;
+	z-index: 20;
+}
+
+
+/*列表*/
+.yzf-list{
+	width:90%;
+	height:8rem;
+	background:#fff;
+	padding-top:0.2rem;
+	margin:0.75rem auto;
+	position:relative;
+}
+.yzf-san{
+	width:0;
+	height:0;   
+	border-left:0.1rem solid transparent;   
+	border-right:0.1rem solid transparent;   
+	border-bottom:0.1rem solid #fff;
+	position: absolute;
+	top:-0.1rem;
+	left:0.5rem;
+}
+.yzf-listshop{
+	display: block;
+	width:100%;
+	height:2.3rem;
+	margin-top:0.2rem;
+	margin-left:2%;
+}
+.yzf-shopimg{
+	width:1.9rem;
+	height:1.9rem;
+	border-radius:50%;
+	float:left;
+}
+.yzf-shopimg img{
+	width:1.9rem;
+	height:1.9rem;
+}
+.yzf-shopfont{
+	width:4.2rem;
+	height:1.6rem;
+	float:left;
+	margin-top:0.2rem;
+	margin-left:0.3rem;
+}
+.yzf-shopfont img{
+	width:4.2rem;
+	height:1.6rem;
+}
+.yzf-line{
+	width:100%;
+	height:0.2rem;
+} 
+.yzf-line img{
+	width:90%;
+	display: block;
+	margin: 0 auto;
+}

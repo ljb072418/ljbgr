@@ -1,0 +1,566 @@
+.yzf-nav{
+	width:100%;
+	height:1.8rem;
+	background:#22262B;
+	position:relative;
+}
+.yzf-nav >a{
+	width:0.8rem;
+	height:0.8rem;
+	display: block;
+	float:left;	
+}
+.yzf-nav >a >img{
+	margin-left: 0.2rem;
+	margin-top: 0.2rem;	
+	display: block;
+	float:left;	
+	width:0.8rem;
+	height:0.8rem;
+}
+.yzf-nav >img:nth-child(2){
+	width:2.8rem;
+	height:1rem;	
+	display: block;
+	float:left;
+	margin-left:1.25rem;
+}
+
+
+
+.hsf-qrdd-top{
+	width:100%;
+	height:2.2rem;
+	background: #22262B;
+	position: relative;
+	padding-top: 0.5rem;
+}
+.hsf-qrdd-circle{
+	display: block;
+	position:absolute;
+	top:0.6rem;
+	left:0.4rem;
+	width:0.4rem;
+	height:0.4rem;
+	border-radius: 50%;
+	background:#3E4247;
+	color: #fff;
+	text-align: center;
+	line-height: 0.4rem;
+	font-size: 0.26rem;
+	font-family: "宋体";
+}
+.hsf-qrdd-top h1{
+	text-align: center;
+	/*line-height: 2.2rem;*/
+	font-family: "苹方";
+	font-size: 0.26rem;
+	font-weight: 400;
+	color:#fff;
+}
+.hsf-qrdd-top h2{
+	font-size: 0.18rem;
+	color: #9b9b9b;
+	text-align: center;
+	font-family: San Francisco display
+}
+
+/*收货地址*/
+.hsf-qrdd-shouhuaren{
+	width:7.02rem;
+	height:2rem;
+	background-image: url(../img/hsf-img/hsf-qrdd-bg.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: absolute;
+	left: 50%;
+	text-align: center;
+    margin-left: -3.52rem;
+    top:1.4rem;
+    padding-top:0.3rem;
+}
+.hsf-qrdd-shouhuaren >h4{
+	color:#1C1D1F;
+	font-size:0.3rem;
+	font-family: San Francisco display;
+}
+.hsf-qrdd-shouhuaren >h2{
+	color:#b26917;
+	font-size:0.36rem;
+	font-family: San Francisco display;
+}
+.hsf-qrdd-shouhuaren >h5{
+	color:#c8a073;
+	font-size:0.18rem;
+	font-family: San Francisco display;
+}
+.hsf-qrdd-shouhuaren >h3{
+	font-size: 0.24rem;
+	color: #5e5e5e;
+	font-family: "苹方";
+}
+.hsf-qrdd-beijing{
+	width:100%;
+	height:11.14rem;
+	background:#FAFAFA;
+	overflow: hidden;
+}
+
+.hsf-qrdd-zhifu{
+	width:7.02rem;
+	height:4.74rem;
+	background:#fff;
+	position: absolute;
+	left: 50%;
+    margin-left: -3.52rem;
+    top:3.8rem;	
+}
+.hsf-qrdd-kashu{
+	width:0.8rem;
+	height:0.38rem;
+	border: 1px solid #121314;
+	border-radius: 1rem;
+	position: absolute;
+	font-size:0.16rem;
+	line-height: 0.38rem;
+	right:0.5rem;
+	top:0.8rem;
+	text-align: center;
+}
+.hsf-qrdd-yinghangka{
+	width:100%;
+	height:1.58rem;
+	background-image: url(../img/hsf-img/hsf-qrdd-yinghangka.png);
+	background-size: 100%;
+}
+.hsf-qrdd-yupingbi{
+	width:100%;
+	height:1.58rem;
+	background-image: url(../img/hsf-img/hsf-qrdd-yupingbi.png);
+	background-size: 100%;
+}
+.hsf-qrdd-huodaofukuan{
+	width:100%;
+	height:1.58rem;
+	background-image: url(../img/hsf-img/hsf-qrdd-huodaofuk.png);
+	background-size: 100%;
+}
+.hsf-qrdd-qitazhifu{
+	width:100%;
+	height:1.06rem;
+	background:url(../img/hsf-img/hsf-qrdd-zhongjie.png);
+	background-size: 100%;
+	position: absolute;
+	top:9.0rem;
+	left:0;
+}
+.hsf-qrdd-disanfangzhifu{
+	width:100%;
+	height:1.85rem;
+	position: absolute;
+	top:10rem;
+	left: 0;
+}
+.hsf-qrdd-weixinzhufu{
+	width:3.75rem;
+	height:1.85rem;
+	background-image: url(../img/hsf-img/hsf-qrdd-weixin.png);
+	background-size: 100%;
+	float: left;
+}
+.hsf-qrdd-zhifubaozhufu{
+	width:3.75rem;
+	height:1.85rem;
+	background-image: url(../img/hsf-img/hsf-qrdd-zhifubao.png);
+	background-size: 100%;
+	float: left;	
+}
+.hsf-qrdd-querenzhifu{
+	width:100%;
+	height:13.34rem;
+	background-image: url(../img/hsf-img/hsf-qrdd-querenzhifu.png);
+	background-size: 100%;
+	display: none;
+	position: relative;
+}
+.hsf-qrdd-xiangxiang{
+	width:3.75rem;
+	height:1.2rem;
+	background-image: url(../img/hsf-img/hsf-qrdd-rangwoxiangxiang.png);
+	background-size: 100%;
+	position: absolute;
+	top:8.8rem;
+	left:1.8rem;
+}
+.hsf-qrdd-querenanniu{
+	width:2.11rem;
+	height:0.82rem;
+	background-image: url(../img/hsf-img/hsf-qrdd-querenzhifua.png);
+	background-size: 100%;
+	position: absolute;
+	top:0.18rem;
+	left:0.18rem;
+}
+/*选择银行卡*/
+.hsf-qrdd-xuanzeihangka{
+	width:100%;
+	height:13.34rem;
+	display: none;	
+}
+.hsf-qrdd-xuanzeitop{
+	width:100%;
+	height:1rem;
+	background:#4E3727;
+	line-height: 0.4rem;
+	position: relative;
+}
+.hsf-qrdd-circles{
+	position:absolute;
+	top:0.4rem;
+	left:0.4rem;
+	width:0.4rem;
+	height:0.4rem;
+	border-radius: 50%;
+	background:#3E4247;
+	color: #fff;
+	text-align: center;
+	line-height: 0.4rem;
+	font-size: 0.26rem;
+	font-family: "宋体";
+}
+.hsf-qrdd-xuanzeitop h5{
+	text-align: center;
+	font-family: "苹方";
+	font-size: 0.26rem;
+	font-weight: 400;
+	color:#fff;
+}
+.hsf-qrdd-xuanzeitop h6{
+	font-size: 0.18rem;
+	color: #9b9b9b;
+	text-align: center;
+	font-family: San Francisco display
+}
+.hsf-qrdd-tianjia{
+	width:1.01rem;
+	height:0.68rem;
+	background-image: url(../img/hsf-img/hsf-qrdd-tianjia.png);
+	background-size: 100%;
+	position:absolute;
+	right:0.05rem;
+	top:0.08rem;
+}
+.hsf-qrdd-yinhangkacenter{
+	width: 100%;
+	height:12rem;
+	position: absolute;
+	top:1rem;
+	left:0;
+	background-image: url(../img/hsf-img/hsf-yinghangkacenter.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	
+}
+.hsf-qrdd-yinhangkabottom{
+	width:100%;
+	height:1.58rem;
+	background-image: url(../img/hsf-img/hsf-qrdd-yinghangkabottom.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	bottom:0;
+	left: 0;
+}
+.hsf-qrdd-yinhangkabottom >h5{
+	text-align: center;
+	font-family: "苹方";
+	font-size: 0.26rem;
+	font-weight: 400;
+	padding-left:0.4rem;
+	padding-top:0.4rem;
+	color:#fff;
+}
+.hsf-qrdd-yinhangkabottom >h6{
+	font-size: 0.18rem;
+	color: #9b9b9b;
+	text-align: center;
+	padding-left:0.1rem;
+	padding-top:0.05rem;
+	font-family: San Francisco display
+}
+.hsf-qrdd-tianjiayinhangka{
+	display: none;
+}
+.hsf-qrdd-tjcenter{
+	width:100%;
+	height:7.96rem;
+	background-image: url(../img/hsf-img/hsf-qrdd-tianjiayinhangka.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	left:0;
+	top:1.2rem;	
+}
+/*表单*/
+.hsf-qrdd-tjcenter input{
+	width:5rem;
+	height:0.6rem;
+	border:1px solid #ccc;
+	border-radius:1.2rem;
+	position: absolute;
+	left:1.6rem;
+}
+.hsf-qrdd-tjcenter input.tjone{
+	top:1.6rem;
+}
+.hsf-qrdd-tjcenter input.tjtwo{
+	top:2.6rem;
+}
+.hsf-qrdd-tjcenter input.tjthree{
+	top:3.6rem;
+}
+.hsf-qrdd-tjcenter input.tjfour{
+	top:4.6rem;
+}
+.hsf-qrdd-tjcenter input.tjfive{
+	width:2.4rem;
+	height:0.6rem;
+	border:1px solid #ccc;
+	border-radius:1.2rem;
+	position: absolute;
+	left:1.6rem;
+	top:5.6rem;
+}
+.hsf-qrdd-huoquyanzhengma{
+	width:2.4rem;
+	height:0.6rem;
+	border:1px solid #ccc;
+	border-radius:1.2rem;
+	background:#F1F1F1;
+	position: absolute;
+	left:4.2rem;
+	text-align:center;
+	line-height: 0.6rem;
+	top:5.6rem;
+}
+.hsf-qrdd-fuwuxieyi{
+	width:0.1rem;
+	height:0.1rem;
+	background:#B26917;
+/*	border:1px solid #ccc;*/	
+	border-radius: 50%;
+	position: absolute;
+	left:0.82rem;
+	top:6.72rem;
+}
+/*我再想想和确认支付*/
+.hsf-success-bgs{
+	width:3.71rem;
+	height:1.10rem;
+	background-image: url(../img/hsf-img/hsf-success-bg.png);
+	background-size: 100%;
+	position: absolute;
+	top:8.4rem;
+	left:1.6rem;
+}
+.hsf-success-nexts{
+	position: absolute;
+	text-align: center;
+	top:0.20rem;
+	left:0.16rem;
+	width:1.76rem;
+	height:0.68rem;
+}
+.hsf-success-looks{
+	position: absolute;
+	text-align: center;
+	top:0.20rem;
+	left:1.60rem;
+	width:1.76rem;
+	height:0.68rem;
+}
+.hsf-success-nexts.actives{
+	background:#784018;
+	border-radius: 0.68rem;
+}
+.hsf-success-looks.actives{
+	background:#784018;
+	border-radius: 0.68rem;
+}
+.hsf-success-nexts.actives h1{
+	color:#fff;
+}
+.hsf-success-nexts.actives h2{
+	color:#fff;
+}
+.hsf-success-looks.actives h1{
+	color:#fff;
+}
+.hsf-success-looks.actives h2{
+	color:#fff;
+}
+
+
+.hsf-bottom{
+	width:100%;
+	height:1.10rem;
+	background:#6b3b23;
+	position: absolute;
+	bottom:0;
+	left:0;
+	background-image: url(../img/hsf-img/hsf-qrdd-yinghangkabottom.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.hsf-bottom >h5{
+	text-align: center;
+	font-family: "苹方";
+	font-size: 0.26rem;
+	font-weight: 400;
+	padding-left:0.4rem;
+	padding-top:0.4rem;
+	color:#fff;
+}
+.hsf-bottom >h6{
+	font-size: 0.18rem;
+	color: #9b9b9b;
+	text-align: center;
+	padding-left:0.1rem;
+	padding-top:0.05rem;
+	font-family: San Francisco display
+}
+/*指纹识别支付*/
+.tu{
+	width: 100%;
+	height: 13.34rem;
+	background: #f1f1f1;
+	display: none;
+}
+.swiper-slide{
+	position: relative;
+}
+.swiper-slide img{
+	width: 7.5rem;
+}
+.anniu{
+	width: 3.3rem;
+	height: 0.9rem;
+	background: pink;
+}
+.hsf-qrdd-guanbi{
+	width:0.6rem;
+	height:0.56rem;
+	background-image: url(../img/hsf-img/hsf-qrdd-guanbi.png);
+	background-size: 100%;
+	position: absolute;
+	left:0.05rem;
+	top:0.05rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hsf-qrdd-zhiwenshibie{
+	width:100%;
+	height:12.96rem;
+	background-image: url(../img/hsf-img/hsf-qrdd-zhiwenzhifu.png);
+	background-size: 100%;
+	display: none;
+}
+
+/*密码识别方式*/
+.hsf-qrdd-mimashibie{
+	width:100%;
+	height:12.96rem;
+	background-image: url(../img/hsf-img/hsf-qrdd-mimashi.png);
+	background-size: 100%;
+	display: none;
+}
+/*图案识别方式*/
+.hsf-qrdd-tuanshibie{
+	width:100%;
+	height:12.96rem;
+	background-image: url(../img/hsf-img/hsf-qrdd-zhiwenshi.png);
+	background-size: 100%;
+	display: none;
+}
+/*支付成功页面*/
+.hsf-qrdd-success{
+	width:100%;
+	height:13.34rem;
+	background-image: url(../img/hsf-img/hsf-qrdd-baobeilail.png);
+	background-size: 100%;
+	display: none;
+	position: relative;
+}
+.hsf-success-bg{
+	width:3.71rem;
+	height:1.10rem;
+	background-image: url(../img/hsf-img/hsf-success-bg.png);
+	background-size: 100%;
+	position: absolute;
+	top:8.4rem;
+	left:1.6rem;
+}
+.hsf-success-next{
+	position: absolute;
+	text-align: center;
+	top:0.20rem;
+	left:0.16rem;
+	width:1.76rem;
+	height:0.68rem;
+}
+.hsf-success-next>a{
+	display: block;
+	width: 100%;
+	height:100%;
+}
+.hsf-success-look{
+	position: absolute;
+	text-align: center;
+	top:0.20rem;
+	left:1.60rem;
+	width:1.76rem;
+	height:0.68rem;
+}
+.hsf-success-look>a{
+	display: block;
+	width: 100%;
+	height:100%;
+}
+.hsf-success-next.actives{
+	background:#784018;
+	border-radius: 0.68rem;
+}
+.hsf-success-look.actives{
+	background:#784018;
+	border-radius: 0.68rem;
+}
+.hsf-success-next.actives h1{
+	color:#fff;
+}
+.hsf-success-next.actives h2{
+	color:#fff;
+}
+/*.hsf-success-look.hsfactive{
+	color:#fff;
+	width:1.76rem;
+	height:0.68rem;
+	background:#784018;
+	border-radius: 0.68rem;
+}*/
+.hsf-success-look.actives h1{
+	color:#fff;
+}
+.hsf-success-look.actives h2{
+	color:#fff;
+}
